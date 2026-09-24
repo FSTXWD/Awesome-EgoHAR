@@ -1,0 +1,364 @@
+[
+  {
+    "id": "wear",
+    "name": "WEAR",
+    "year": 2024,
+    "scope": "core",
+    "positions": [
+      "head",
+      "multi-body"
+    ],
+    "devices": [
+      "egocentric-camera",
+      "smartwatch"
+    ],
+    "modalities": [
+      "video",
+      "accelerometer"
+    ],
+    "tasks": [
+      "har",
+      "tal"
+    ],
+    "url": "https://mariusbock.github.io/wear/"
+  },
+  {
+    "id": "xrf-v2",
+    "name": "XRF V2",
+    "year": 2025,
+    "scope": "core",
+    "positions": [
+      "head",
+      "ear",
+      "wrist",
+      "unknown-carried"
+    ],
+    "devices": [
+      "smart-glasses",
+      "earables",
+      "smartwatch",
+      "smartphone"
+    ],
+    "modalities": [
+      "imu",
+      "wifi",
+      "video"
+    ],
+    "tasks": [
+      "tal",
+      "summarization"
+    ],
+    "url": "https://arxiv.org/abs/2501.19034"
+  },
+  {
+    "id": "egoadl",
+    "name": "EgoADL",
+    "year": 2023,
+    "scope": "core",
+    "positions": [
+      "pocket"
+    ],
+    "devices": [
+      "smartphone"
+    ],
+    "modalities": [
+      "audio",
+      "imu",
+      "wifi"
+    ],
+    "tasks": [
+      "free-living-har"
+    ],
+    "url": "https://zenodo.org/records/8248159"
+  },
+  {
+    "id": "ego4d",
+    "name": "Ego4D",
+    "year": null,
+    "scope": "core",
+    "positions": [
+      "head"
+    ],
+    "devices": [
+      "egocentric-camera"
+    ],
+    "modalities": [
+      "video",
+      "subset-dependent-audio-imu-gaze"
+    ],
+    "tasks": [
+      "egocentric-understanding"
+    ],
+    "url": "https://ego4d-data.org/docs/data/unprocessed_data/"
+  },
+  {
+    "id": "ego-exo4d",
+    "name": "Ego-Exo4D",
+    "year": null,
+    "scope": "core",
+    "positions": [
+      "head"
+    ],
+    "devices": [
+      "smart-glasses",
+      "external-cameras"
+    ],
+    "modalities": [
+      "video",
+      "audio",
+      "imu",
+      "gaze"
+    ],
+    "tasks": [
+      "temporal-understanding",
+      "ego-exo"
+    ],
+    "url": "https://docs.ego-exo4d-data.org/overview/"
+  },
+  {
+    "id": "uestc-mmea-cl",
+    "name": "UESTC-MMEA-CL",
+    "year": 2023,
+    "scope": "core",
+    "positions": [
+      "head"
+    ],
+    "devices": [
+      "smart-glasses"
+    ],
+    "modalities": [
+      "rgb",
+      "accelerometer",
+      "gyroscope"
+    ],
+    "tasks": [
+      "continual-har"
+    ],
+    "url": "https://arxiv.org/abs/2301.10931"
+  },
+  {
+    "id": "aria-digital-twin",
+    "name": "Aria Digital Twin",
+    "year": 2023,
+    "scope": "bridge",
+    "positions": [
+      "head"
+    ],
+    "devices": [
+      "smart-glasses"
+    ],
+    "modalities": [
+      "video",
+      "imu",
+      "gaze"
+    ],
+    "tasks": [
+      "egocentric-3d"
+    ],
+    "url": "https://openaccess.thecvf.com/content/ICCV2023/html/Pan_Aria_Digital_Twin_A_New_Benchmark_Dataset_for_Egocentric_3D_ICCV_2023_paper.html"
+  },
+  {
+    "id": "nymeria",
+    "name": "Nymeria",
+    "year": null,
+    "scope": "core",
+    "positions": [
+      "head",
+      "multi-body"
+    ],
+    "devices": [
+      "egocentric-devices"
+    ],
+    "modalities": [
+      "video",
+      "body-motion"
+    ],
+    "tasks": [
+      "motion-understanding"
+    ],
+    "url": "https://github.com/facebookresearch/nymeria_dataset"
+  },
+  {
+    "id": "epic-sounds",
+    "name": "EPIC-SOUNDS",
+    "year": 2023,
+    "scope": "core",
+    "positions": [
+      "head"
+    ],
+    "devices": [
+      "egocentric-camera"
+    ],
+    "modalities": [
+      "audio",
+      "video"
+    ],
+    "tasks": [
+      "sound-event-detection"
+    ],
+    "url": "https://arxiv.org/abs/2302.00646"
+  },
+  {
+    "id": "capture-24",
+    "name": "CAPTURE-24",
+    "year": 2024,
+    "scope": "core",
+    "positions": [
+      "wrist"
+    ],
+    "devices": [
+      "wearable"
+    ],
+    "modalities": [
+      "accelerometer",
+      "camera-assisted-labels"
+    ],
+    "tasks": [
+      "free-living-har"
+    ],
+    "url": "https://ora.ox.ac.uk/objects/uuid:99d7c092-d865-4a19-b096-cc16440cd001"
+  },
+  {
+    "id": "comprehensive-imu",
+    "name": "Comprehensive IMU Dataset",
+    "year": 2026,
+    "scope": "core",
+    "positions": [
+      "multi-body"
+    ],
+    "devices": [
+      "body-worn-imu"
+    ],
+    "modalities": [
+      "accelerometer",
+      "gyroscope"
+    ],
+    "tasks": [
+      "sensor-placement"
+    ],
+    "url": "https://www.nature.com/articles/s41597-026-06710-9"
+  },
+  {
+    "id": "pamap2",
+    "name": "PAMAP2",
+    "year": 2012,
+    "scope": "core",
+    "positions": [
+      "chest",
+      "wrist",
+      "ankle"
+    ],
+    "devices": [
+      "wearable-imu",
+      "heart-rate-monitor"
+    ],
+    "modalities": [
+      "imu",
+      "heart-rate"
+    ],
+    "tasks": [
+      "har"
+    ],
+    "url": "https://archive.ics.uci.edu/dataset/231/pamap2+physical+activity+monitoring"
+  },
+  {
+    "id": "opportunity",
+    "name": "OPPORTUNITY",
+    "year": 2012,
+    "scope": "core",
+    "positions": [
+      "multi-body"
+    ],
+    "devices": [
+      "wearable",
+      "ambient"
+    ],
+    "modalities": [
+      "multisensor"
+    ],
+    "tasks": [
+      "har",
+      "segmentation"
+    ],
+    "url": "https://archive.ics.uci.edu/dataset/226/opportunity+activity+recognition"
+  },
+  {
+    "id": "uci-har",
+    "name": "UCI-HAR",
+    "year": 2013,
+    "scope": "core",
+    "positions": [
+      "waist"
+    ],
+    "devices": [
+      "smartphone"
+    ],
+    "modalities": [
+      "accelerometer",
+      "gyroscope"
+    ],
+    "tasks": [
+      "window-har"
+    ],
+    "url": "https://archive.ics.uci.edu/dataset/240/human+activity+recognition+using+smartphones"
+  },
+  {
+    "id": "wisdm",
+    "name": "WISDM",
+    "year": null,
+    "scope": "core",
+    "positions": [
+      "wrist",
+      "unknown-carried"
+    ],
+    "devices": [
+      "smartwatch",
+      "smartphone"
+    ],
+    "modalities": [
+      "accelerometer",
+      "gyroscope"
+    ],
+    "tasks": [
+      "har"
+    ],
+    "url": "https://www.cis.fordham.edu/wisdm/dataset.php"
+  },
+  {
+    "id": "desed",
+    "name": "DESED",
+    "year": null,
+    "scope": "bridge",
+    "positions": [],
+    "devices": [
+      "ambient-microphone"
+    ],
+    "modalities": [
+      "audio"
+    ],
+    "tasks": [
+      "sound-event-detection",
+      "weak-supervision"
+    ],
+    "url": "https://github.com/turpaultn/DESED"
+  },
+  {
+    "id": "octonet",
+    "name": "OctoNet",
+    "year": 2025,
+    "scope": "bridge",
+    "positions": [
+      "multi-body"
+    ],
+    "devices": [
+      "body-and-environment"
+    ],
+    "modalities": [
+      "multisensor"
+    ],
+    "tasks": [
+      "multimodal-har"
+    ],
+    "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/14950adea25005f89545688fe97fe5ea-Abstract-Datasets_and_Benchmarks_Track.html"
+  }
+]

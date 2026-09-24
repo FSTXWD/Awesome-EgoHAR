@@ -1,0 +1,520 @@
+[
+  {
+    "id": "deepsense",
+    "title": "DeepSense: A Unified Deep Learning Framework for Time-Series Mobile Sensing Data Processing",
+    "year": 2017,
+    "scope": "core",
+    "positions": [
+      "multi-body"
+    ],
+    "devices": [
+      "smartphone"
+    ],
+    "modalities": [
+      "imu"
+    ],
+    "topics": [
+      "fusion",
+      "window-har",
+      "systems"
+    ],
+    "url": "https://research.ibm.com/publications/deepsense-a-unified-deep-learning-framework-for-time-series-mobile-sensing-data-processing"
+  },
+  {
+    "id": "samosa",
+    "title": "SAMoSA: Sensing Activities with Motion and Subsampled Audio",
+    "year": 2022,
+    "scope": "core",
+    "positions": [
+      "wrist"
+    ],
+    "devices": [
+      "smartwatch"
+    ],
+    "modalities": [
+      "imu",
+      "audio"
+    ],
+    "topics": [
+      "fusion",
+      "adaptive-sensing",
+      "systems"
+    ],
+    "url": "https://doi.org/10.1145/3550284"
+  },
+  {
+    "id": "watchhar",
+    "title": "WatchHAR: Real-time On-device Human Activity Recognition System for Smartwatches",
+    "year": 2025,
+    "scope": "core",
+    "positions": [
+      "wrist"
+    ],
+    "devices": [
+      "smartwatch"
+    ],
+    "modalities": [
+      "imu",
+      "audio"
+    ],
+    "topics": [
+      "fusion",
+      "on-device",
+      "systems"
+    ],
+    "url": "https://spice-lab.org/projects/WatchHAR/"
+  },
+  {
+    "id": "habitsense",
+    "title": "HabitSense: A Privacy-Aware, AI-Enhanced Multimodal Wearable Platform for mHealth Applications",
+    "year": 2024,
+    "scope": "core",
+    "positions": [
+      "neck"
+    ],
+    "devices": [
+      "neck-worn"
+    ],
+    "modalities": [
+      "rgb",
+      "thermal",
+      "imu"
+    ],
+    "topics": [
+      "fusion",
+      "adaptive-sensing",
+      "privacy"
+    ],
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11879279/"
+  },
+  {
+    "id": "imu2clip",
+    "title": "IMU2CLIP: Language-grounded Motion Sensor Translation with Multimodal Contrastive Learning",
+    "year": 2023,
+    "scope": "core",
+    "positions": [
+      "multi-body"
+    ],
+    "devices": [
+      "wearable"
+    ],
+    "modalities": [
+      "imu",
+      "video",
+      "text"
+    ],
+    "topics": [
+      "alignment",
+      "language",
+      "foundation"
+    ],
+    "url": "https://aclanthology.org/2023.findings-emnlp.883/"
+  },
+  {
+    "id": "cocoa",
+    "title": "COCOA: Cross Modality Contrastive Learning for Sensor Data",
+    "year": 2022,
+    "scope": "core",
+    "positions": [
+      "multi-body"
+    ],
+    "devices": [
+      "wearable"
+    ],
+    "modalities": [
+      "multisensor"
+    ],
+    "topics": [
+      "alignment",
+      "self-supervised"
+    ],
+    "url": "https://arxiv.org/abs/2208.00467"
+  },
+  {
+    "id": "focal",
+    "title": "FOCAL: Contrastive Learning for Multimodal Time-Series Sensing Signals in Factorized Orthogonal Latent Space",
+    "year": 2023,
+    "scope": "core",
+    "positions": [
+      "multi-body"
+    ],
+    "devices": [
+      "wearable"
+    ],
+    "modalities": [
+      "multisensor"
+    ],
+    "topics": [
+      "alignment",
+      "self-supervised"
+    ],
+    "url": "https://proceedings.neurips.cc/paper_files/paper/2023/hash/93e98ddf39a9beb0a97fbbe56a986c80-Abstract-Conference.html"
+  },
+  {
+    "id": "babel",
+    "title": "Babel: A Scalable Pre-trained Model for Multi-Modal Sensing via Expandable Modality Alignment",
+    "year": 2025,
+    "scope": "adapted",
+    "positions": [
+      "multi-body"
+    ],
+    "devices": [
+      "wearable"
+    ],
+    "modalities": [
+      "imu",
+      "video",
+      "wifi",
+      "mmwave",
+      "lidar",
+      "depth"
+    ],
+    "topics": [
+      "alignment",
+      "missing-modality",
+      "foundation"
+    ],
+    "url": "https://doi.org/10.1145/3715014.3722068"
+  },
+  {
+    "id": "comodo",
+    "title": "COMODO: Cross-Modal Video-to-IMU Distillation for Efficient Egocentric Human Activity Recognition",
+    "year": 2026,
+    "scope": "core",
+    "positions": [
+      "multi-body"
+    ],
+    "devices": [
+      "wearable"
+    ],
+    "modalities": [
+      "imu",
+      "video"
+    ],
+    "topics": [
+      "distillation",
+      "training-time-multimodal"
+    ],
+    "url": "https://arxiv.org/abs/2503.07259"
+  },
+  {
+    "id": "hmotiongpt",
+    "title": "HMotionGPT",
+    "year": 2026,
+    "scope": "core",
+    "positions": [
+      "finger"
+    ],
+    "devices": [
+      "smart-ring"
+    ],
+    "modalities": [
+      "imu",
+      "text"
+    ],
+    "topics": [
+      "language",
+      "foundation"
+    ],
+    "url": "https://doi.org/10.1145/3810222"
+  },
+  {
+    "id": "wear",
+    "title": "WEAR: An Outdoor Sports Dataset for Wearable and Egocentric Activity Recognition",
+    "year": 2024,
+    "scope": "core",
+    "positions": [
+      "head",
+      "multi-body"
+    ],
+    "devices": [
+      "egocentric-camera",
+      "smartwatch"
+    ],
+    "modalities": [
+      "video",
+      "imu"
+    ],
+    "topics": [
+      "temporal-localization",
+      "fusion",
+      "dataset"
+    ],
+    "url": "https://mariusbock.github.io/wear/"
+  },
+  {
+    "id": "xrf-v2",
+    "title": "XRF V2",
+    "year": 2025,
+    "scope": "core",
+    "positions": [
+      "head",
+      "ear",
+      "wrist",
+      "unknown-carried"
+    ],
+    "devices": [
+      "smart-glasses",
+      "earables",
+      "smartwatch",
+      "smartphone"
+    ],
+    "modalities": [
+      "imu",
+      "video",
+      "wifi"
+    ],
+    "topics": [
+      "temporal-localization",
+      "multi-device",
+      "dataset"
+    ],
+    "url": "https://arxiv.org/abs/2501.19034"
+  },
+  {
+    "id": "ws-imubench",
+    "title": "WS-IMUBench: Can Weakly Supervised Methods from Audio, Image, and Video Be Adapted for IMU-based Temporal Action Localization?",
+    "year": 2026,
+    "scope": "core",
+    "positions": [
+      "multi-body"
+    ],
+    "devices": [
+      "wearable"
+    ],
+    "modalities": [
+      "imu"
+    ],
+    "topics": [
+      "temporal-localization",
+      "weak-supervision",
+      "benchmark"
+    ],
+    "url": "https://arxiv.org/abs/2602.01850"
+  },
+  {
+    "id": "timestamp-seg",
+    "title": "Timestamp-Supervised Wearable-Based Activity Segmentation and Recognition with Contrastive Learning and Order-Preserving Optimal Transport",
+    "year": 2024,
+    "scope": "core",
+    "positions": [
+      "multi-body"
+    ],
+    "devices": [
+      "wearable"
+    ],
+    "modalities": [
+      "imu"
+    ],
+    "topics": [
+      "segmentation",
+      "weak-supervision"
+    ],
+    "url": "https://arxiv.org/abs/2310.09114"
+  },
+  {
+    "id": "recurve",
+    "title": "RECURVE",
+    "year": 2024,
+    "scope": "bridge",
+    "positions": [],
+    "devices": [],
+    "modalities": [
+      "time-series"
+    ],
+    "topics": [
+      "boundary-detection",
+      "segmentation"
+    ],
+    "url": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/0b7f639ef28a9035a71f7e0c04c1d681-Abstract-Conference.html"
+  },
+  {
+    "id": "relcon",
+    "title": "RelCon",
+    "year": 2025,
+    "scope": "core",
+    "positions": [
+      "wrist"
+    ],
+    "devices": [
+      "wearable"
+    ],
+    "modalities": [
+      "accelerometer"
+    ],
+    "topics": [
+      "foundation",
+      "self-supervised",
+      "generalization"
+    ],
+    "url": "https://proceedings.iclr.cc/paper_files/paper/2025/hash/83eb339ed42297658fa24b5cec939285-Abstract-Conference.html"
+  },
+  {
+    "id": "scaling-wearable-fm",
+    "title": "Scaling Wearable Foundation Models",
+    "year": 2025,
+    "scope": "core",
+    "positions": [
+      "multi-body"
+    ],
+    "devices": [
+      "wearable"
+    ],
+    "modalities": [
+      "accelerometer",
+      "physiological"
+    ],
+    "topics": [
+      "foundation",
+      "systems"
+    ],
+    "url": "https://proceedings.iclr.cc/paper_files/paper/2025/hash/94b25992757a549470c8f8dfe73d8df6-Abstract-Conference.html"
+  },
+  {
+    "id": "inertia-1",
+    "title": "Inertia-1",
+    "year": 2026,
+    "scope": "core",
+    "positions": [
+      "multi-body"
+    ],
+    "devices": [
+      "wearable"
+    ],
+    "modalities": [
+      "imu"
+    ],
+    "topics": [
+      "foundation",
+      "sensor-placement"
+    ],
+    "url": "https://arxiv.org/abs/2607.06617"
+  },
+  {
+    "id": "master",
+    "title": "MASTER",
+    "year": 2025,
+    "scope": "core",
+    "positions": [
+      "multi-body"
+    ],
+    "devices": [
+      "wearable"
+    ],
+    "modalities": [
+      "multisensor"
+    ],
+    "topics": [
+      "fusion",
+      "missing-modality"
+    ],
+    "url": "https://dblp.org/rec/journals/imwut/ZhuZLZZQM25.html"
+  },
+  {
+    "id": "aria-digital-twin",
+    "title": "Aria Digital Twin: A New Benchmark Dataset for Egocentric 3D Machine Perception",
+    "year": 2023,
+    "scope": "bridge",
+    "positions": [
+      "head"
+    ],
+    "devices": [
+      "smart-glasses"
+    ],
+    "modalities": [
+      "video",
+      "imu",
+      "gaze"
+    ],
+    "topics": [
+      "dataset",
+      "egocentric"
+    ],
+    "url": "https://openaccess.thecvf.com/content/ICCV2023/html/Pan_Aria_Digital_Twin_A_New_Benchmark_Dataset_for_Egocentric_3D_ICCV_2023_paper.html"
+  },
+  {
+    "id": "uestc-mmea-cl",
+    "title": "Towards Continual Egocentric Activity Recognition: A Multi-modal Egocentric Activity Dataset for Continual Learning",
+    "year": 2023,
+    "scope": "core",
+    "positions": [
+      "head"
+    ],
+    "devices": [
+      "smart-glasses"
+    ],
+    "modalities": [
+      "rgb",
+      "imu"
+    ],
+    "topics": [
+      "dataset",
+      "continual-learning"
+    ],
+    "url": "https://arxiv.org/abs/2301.10931"
+  },
+  {
+    "id": "ego-adl",
+    "title": "EgoADL: Multimodal Daily-life Logging in Free-living Environments Using Non-Visual Egocentric Sensors on a Smartphone",
+    "year": 2023,
+    "scope": "core",
+    "positions": [
+      "pocket"
+    ],
+    "devices": [
+      "smartphone"
+    ],
+    "modalities": [
+      "audio",
+      "imu",
+      "wifi"
+    ],
+    "topics": [
+      "dataset",
+      "free-living",
+      "fusion"
+    ],
+    "url": "https://zenodo.org/records/8248159"
+  },
+  {
+    "id": "octonet",
+    "title": "OctoNet",
+    "year": 2025,
+    "scope": "bridge",
+    "positions": [
+      "multi-body"
+    ],
+    "devices": [
+      "multisensor"
+    ],
+    "modalities": [
+      "multisensor"
+    ],
+    "topics": [
+      "dataset",
+      "fusion"
+    ],
+    "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/14950adea25005f89545688fe97fe5ea-Abstract-Datasets_and_Benchmarks_Track.html"
+  },
+  {
+    "id": "epic-sounds",
+    "title": "EPIC-SOUNDS: A Large-scale Dataset of Actions that Sound",
+    "year": 2023,
+    "scope": "core",
+    "positions": [
+      "head"
+    ],
+    "devices": [
+      "egocentric-camera"
+    ],
+    "modalities": [
+      "audio",
+      "video"
+    ],
+    "topics": [
+      "sound-event-detection",
+      "dataset"
+    ],
+    "url": "https://arxiv.org/abs/2302.00646"
+  }
+]
