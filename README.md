@@ -1,8 +1,8 @@
 # Awesome EgoHAR
 
-A curated collection of datasets, benchmarks, papers, and resources for egocentric and body-centric human activity recognition and understanding.
+>  A curated collection of datasets, benchmarks, papers, and resources for egocentric and body-centric human activity recognition and understanding.
 
-Here, **egocentric** includes activity understanding from sensors carried by or attached to the wearer. We record body position, device, and sensing modality separately so readers can compare configurations across datasets and methods.
+> Here, **egocentric** includes activity understanding from sensors carried by or attached to the wearer. We record body position, device, and sensing modality separately so readers can compare configurations across datasets and methods.
 
 ## Contents
 
@@ -36,15 +36,13 @@ Here, **egocentric** includes activity understanding from sensors carried by or 
 
 ## Scope and taxonomy
 
-| Axis | Examples |
-| --- | --- |
+| Axis          | Examples                                                     |
+| ------------- | ------------------------------------------------------------ |
 | Body position | Head, ear, neck, wrist, finger, pocket, waist, ankle, multiple positions |
-| Device | Smart glasses, earables, smartwatch, smart ring, smartphone, body-worn node |
-| Modality | IMU, RGB video, thermal, audio, Wi-Fi, physiological signals |
-| Task | Window classification, temporal segmentation, localization, sound events, language grounding |
-| Setting | Controlled, free-living, indoor, outdoor, streaming, on-device |
-
-A smartphone is a device; its carried position is recorded separately. Related video, audio, and ambient-sensing resources are included where they provide useful methods or evaluation settings for wearer-centered activity understanding.
+| Device        | Smart glasses, earables, smartwatch, smart ring, smartphone, body-worn node |
+| Modality      | IMU, RGB video, thermal, audio, Wi-Fi, physiological signals |
+| Task          | Window classification, temporal segmentation, localization, sound events, language grounding |
+| Setting       | Controlled, free-living, indoor, outdoor, streaming, on-device |
 
 ## Surveys and tutorials
 
@@ -56,56 +54,52 @@ A smartphone is a device; its carried position is recorded separately. Related v
 
 ## Datasets and benchmarks
 
-Dataset names link to their access or project pages. **Data size / scale** uses the measure reported by each source (hours, file size, sequences, frames, or events), so values are not directly comparable. **—** means a figure was not verified for that release. Activity labels and sensor availability can vary by subset; for example, not every Ego4D recording includes IMU. The final columns give the dataset year and the companion paper venue or data host. Source pages for table facts are recorded in [assets/registry/datasets.yaml](assets/registry/datasets.yaml).
-
 ### Egocentric and multimodal datasets
 
-| Dataset | Wearer / device | Modalities | Subjects | Activities | Data size / scale | Scenarios | Year | Publication / host |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| **[WEAR](https://mariusbock.github.io/wear/)** | Head camera; wrists and ankles | Egocentric video, accelerometer | 22 | 18 sports activities | 164 GB raw | Outdoor sports; 11 locations | 2024 | IMWUT |
-| **[XRF V2](https://github.com/airslab2020/XRFV2)** | Glasses, earbuds, watch, phone | IMU, Wi-Fi, video | 16 | Indoor daily activities | — | 3 indoor environments | 2025 | IMWUT |
-| **[EgoADL](https://zenodo.org/records/8248159)** | Pocket smartphone | Audio, Wi-Fi, IMU | 30 (10 labeled) | Unscripted daily activities | 29.1 GB files | Free-living daily routines | 2024 | IMWUT |
-| **[Ego4D](https://ego4d-data.org/docs/data/unprocessed_data/)** | Head-mounted cameras | Video; audio, gaze and other signals in subsets | 931 | Daily activities (varied) | 3,670 h video | 74 locations across 9 countries | 2022 | CVPR |
-| **[Ego-Exo4D](https://docs.ego-exo4d-data.org/overview/)** | Head-worn and external cameras | Video, audio, IMU, gaze | 740 | Skilled activities | 1,286 h combined video | 123 contexts in 13 cities | 2024 | CVPR |
-| **[UESTC-MMEA-CL](https://github.com/Tflowers-0129/uestc-mmea-cl)** | Smart glasses | RGB, accelerometer, gyroscope | 10 | 32 daily activities | — | Continual egocentric activity learning | 2024 | IEEE TMM |
-| **[Aria Digital Twin](https://facebookresearch.github.io/projectaria_tools/docs/open_datasets/aria_digital_twin_dataset/dataset_download)** | Aria glasses | Video, IMU, gaze; 3D ground truth | — | 3D perception and human motion | 236 sequences | Apartment and office | 2023 | ICCV |
-| **[Nymeria](https://huggingface.co/datasets/projectaria/Nymeria)** | Aria glasses and body sensors | Video, IMU, body motion, language | 264 | Unscripted daily motions | 300 h | 20 unscripted scenarios; 50 locations | 2024 | ECCV |
-| **[EPIC-SOUNDS](https://epic-kitchens.github.io/epic-sounds/)** | Head-worn camera | Audio; egocentric video context | — | 44 sound classes | 117.5K sound events | 45 kitchens | 2023 | ICASSP |
+| Dataset                                                      | Wearer / device                | Modalities                                      | Subjects        | Activities                     | Data size / scale      | Scenarios                              | Year | Publication / host |
+| ------------------------------------------------------------ | ------------------------------ | ----------------------------------------------- | --------------- | ------------------------------ | ---------------------- | -------------------------------------- | ---- | ------------------ |
+| **[WEAR](https://mariusbock.github.io/wear/)**               | Head camera; wrists and ankles | Egocentric video, accelerometer                 | 22              | 18 sports activities           | 164 GB raw             | Outdoor sports; 11 locations           | 2024 | IMWUT              |
+| **[XRF V2](https://github.com/airslab2020/XRFV2)**           | Glasses, earbuds, watch, phone | IMU, Wi-Fi, video                               | 16              | Indoor daily activities        | —                      | 3 indoor environments                  | 2025 | IMWUT              |
+| **[EgoADL](https://zenodo.org/records/8248159)**             | Pocket smartphone              | Audio, Wi-Fi, IMU                               | 30 (10 labeled) | Unscripted daily activities    | 29.1 GB files          | Free-living daily routines             | 2024 | IMWUT              |
+| **[Ego4D](https://ego4d-data.org/docs/data/unprocessed_data/)** | Head-mounted cameras           | Video; audio, gaze and other signals in subsets | 931             | Daily activities (varied)      | 3,670 h video          | 74 locations across 9 countries        | 2022 | CVPR               |
+| **[Ego-Exo4D](https://docs.ego-exo4d-data.org/overview/)**   | Head-worn and external cameras | Video, audio, IMU, gaze                         | 740             | Skilled activities             | 1,286 h combined video | 123 contexts in 13 cities              | 2024 | CVPR               |
+| **[UESTC-MMEA-CL](https://github.com/Tflowers-0129/uestc-mmea-cl)** | Smart glasses                  | RGB, accelerometer, gyroscope                   | 10              | 32 daily activities            | —                      | Continual egocentric activity learning | 2024 | IEEE TMM           |
+| **[Aria Digital Twin](https://facebookresearch.github.io/projectaria_tools/docs/open_datasets/aria_digital_twin_dataset/dataset_download)** | Aria glasses                   | Video, IMU, gaze; 3D ground truth               | —               | 3D perception and human motion | 236 sequences          | Apartment and office                   | 2023 | ICCV               |
+| **[Nymeria](https://huggingface.co/datasets/projectaria/Nymeria)** | Aria glasses and body sensors  | Video, IMU, body motion, language               | 264             | Unscripted daily motions       | 300 h                  | 20 unscripted scenarios; 50 locations  | 2024 | ECCV               |
+| **[EPIC-SOUNDS](https://epic-kitchens.github.io/epic-sounds/)** | Head-worn camera               | Audio; egocentric video context                 | —               | 44 sound classes               | 117.5K sound events    | 45 kitchens                            | 2023 | ICASSP             |
 
 ### Body-worn activity datasets
 
-| Dataset | Wearer / device | Modalities | Subjects | Activities | Data size / scale | Scenarios | Year | Publication / host |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| **[CAPTURE-24](https://ora.ox.ac.uk/objects/uuid:99d7c092-d865-4a19-b096-cc16440cd001)** | Wrist tracker; camera-assisted labels | Accelerometer; camera labels | 151 | 206 fine-grained activity codes | 3,883 h (2,562 h annotated) | Free-living, over 24 h | 2024 | Scientific Data |
-| **[Comprehensive IMU Dataset](https://doi.org/10.6084/m9.figshare.30234940)** | 17 body-worn IMUs | Accelerometer, gyroscope | 30 | 12 daily activities | 21.2 GB | Controlled activity and intensity protocols | 2026 | Scientific Data |
-| **[PAMAP2](https://archive.ics.uci.edu/dataset/231/pamap2+physical+activity+monitoring)** | Chest, wrist, ankle | IMU, heart rate | 9 | 18 physical activities | — | Physical activity monitoring | 2012 | UCI Machine Learning Repository |
-| **[OPPORTUNITY](https://archive.ics.uci.edu/dataset/226/opportunity+activity+recognition)** | Body, objects and environment | IMU, object and ambient sensors | 4 | 17 gestures; 5 high-level activities | — | Instrumented daily-living environment | 2012 | UCI Machine Learning Repository |
-| **[UCI-HAR](https://archive.ics.uci.edu/dataset/240/human+activity+recognition+using+smartphones)** | Waist smartphone | Accelerometer, gyroscope | 30 | 6 activities | — | Controlled daily activities | 2013 | UCI Machine Learning Repository |
-| **[WISDM Smartphone and Smartwatch](https://archive.ics.uci.edu/dataset/507/wisdm+smartphone+and+smartwatch+activity+and+biometrics+dataset)** | Smartphone and smartwatch | Accelerometer, gyroscope | 51 | 18 activities | 45.9 h per sensor | Scripted phone/watch activities | 2019 | UCI Machine Learning Repository |
+| Dataset                                                      | Wearer / device                       | Modalities                      | Subjects | Activities                           | Data size / scale           | Scenarios                                   | Year | Publication / host              |
+| ------------------------------------------------------------ | ------------------------------------- | ------------------------------- | -------- | ------------------------------------ | --------------------------- | ------------------------------------------- | ---- | ------------------------------- |
+| **[CAPTURE-24](https://ora.ox.ac.uk/objects/uuid:99d7c092-d865-4a19-b096-cc16440cd001)** | Wrist tracker; camera-assisted labels | Accelerometer; camera labels    | 151      | 206 fine-grained activity codes      | 3,883 h (2,562 h annotated) | Free-living, over 24 h                      | 2024 | Scientific Data                 |
+| **[Comprehensive IMU Dataset](https://doi.org/10.6084/m9.figshare.30234940)** | 17 body-worn IMUs                     | Accelerometer, gyroscope        | 30       | 12 daily activities                  | 21.2 GB                     | Controlled activity and intensity protocols | 2026 | Scientific Data                 |
+| **[PAMAP2](https://archive.ics.uci.edu/dataset/231/pamap2+physical+activity+monitoring)** | Chest, wrist, ankle                   | IMU, heart rate                 | 9        | 18 physical activities               | —                           | Physical activity monitoring                | 2012 | UCI Machine Learning Repository |
+| **[OPPORTUNITY](https://archive.ics.uci.edu/dataset/226/opportunity+activity+recognition)** | Body, objects and environment         | IMU, object and ambient sensors | 4        | 17 gestures; 5 high-level activities | —                           | Instrumented daily-living environment       | 2012 | UCI Machine Learning Repository |
+| **[UCI-HAR](https://archive.ics.uci.edu/dataset/240/human+activity+recognition+using+smartphones)** | Waist smartphone                      | Accelerometer, gyroscope        | 30       | 6 activities                         | —                           | Controlled daily activities                 | 2013 | UCI Machine Learning Repository |
+| **[WISDM Smartphone and Smartwatch](https://archive.ics.uci.edu/dataset/507/wisdm+smartphone+and+smartwatch+activity+and+biometrics+dataset)** | Smartphone and smartwatch             | Accelerometer, gyroscope        | 51       | 18 activities                        | 45.9 h per sensor           | Scripted phone/watch activities             | 2019 | UCI Machine Learning Repository |
 
 ### Adjacent sensing resources
 
-| Dataset | Wearer / device | Modalities | Subjects | Activities | Data size / scale | Scenarios | Year | Publication / host |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| **[DESED](https://github.com/turpaultn/DESED)** | Ambient microphones | Audio | — | 10 domestic sound classes | — | Real and synthetic domestic soundscapes | 2019 | DESED project repository |
-| **[OctoNet](https://huggingface.co/datasets/hku-aiot/OctoNet)** | Body and environment sensors | 12 modalities incl. IMU, RGB, depth, audio, Wi-Fi, radar | 41 | 62 daily activities | 67.72M synchronized frames | Structured and free-form activities | 2025 | NeurIPS Datasets and Benchmarks |
+| Dataset                                                      | Wearer / device              | Modalities                                               | Subjects | Activities                | Data size / scale          | Scenarios                               | Year | Publication / host              |
+| ------------------------------------------------------------ | ---------------------------- | -------------------------------------------------------- | -------- | ------------------------- | -------------------------- | --------------------------------------- | ---- | ------------------------------- |
+| **[DESED](https://github.com/turpaultn/DESED)**              | Ambient microphones          | Audio                                                    | —        | 10 domestic sound classes | —                          | Real and synthetic domestic soundscapes | 2019 | DESED project repository        |
+| **[OctoNet](https://huggingface.co/datasets/hku-aiot/OctoNet)** | Body and environment sensors | 12 modalities incl. IMU, RGB, depth, audio, Wi-Fi, radar | 41       | 62 daily activities       | 67.72M synchronized frames | Structured and free-form activities     | 2025 | NeurIPS Datasets and Benchmarks |
 
 ### Benchmark comparison
 
-| Benchmark | Source dataset | Task | Input modalities | Year |
-| --- | --- | --- | --- | --- |
-| **[WS-IMUBench](https://arxiv.org/abs/2602.01850)** | WEAR / XRF V2 | Weakly supervised IMU temporal action localization | IMU | 2026 |
-| **[WEAR benchmark](https://mariusbock.github.io/wear/)** | WEAR | Wearable/egocentric HAR and temporal action localization | Accelerometer, video | 2024 |
-| **[XRF V2](https://github.com/airslab2020/XRFV2)** | XRF V2 | Multi-device multimodal temporal activity understanding | IMU, Wi-Fi, video | 2025 |
-| **[Ego4D benchmarks](https://ego4d-data.org/)** | Ego4D | Egocentric recognition, forecasting and related tasks | First-person video; subset signals | 2022 |
-| **[Ego-Exo4D](https://docs.ego-exo4d-data.org/overview/)** | Ego-Exo4D | Ego-exo temporal and motion understanding | Ego/exo video, IMU, gaze | 2024 |
-| **[EPIC-SOUNDS](https://epic-kitchens.github.io/epic-sounds/)** | EPIC-SOUNDS | Egocentric sound event recognition and detection | Egocentric audio | 2023 |
-| **[DCASE Task 4](https://dcase.community/challenge2024/task-sound-event-detection-with-heterogeneous-training-dataset-and-potentially-missing-labels-results)** | DESED | Sound event detection with heterogeneous and incomplete labels | Domestic audio | 2024 |
-| **[OctoNet](https://huggingface.co/datasets/hku-aiot/OctoNet)** | OctoNet | Heterogeneous multimodal human-centric sensing | Multimodal sensor streams | 2025 |
+| Benchmark                                                    | Source dataset | Task                                                         | Input modalities                   | Year |
+| ------------------------------------------------------------ | -------------- | ------------------------------------------------------------ | ---------------------------------- | ---- |
+| **[WS-IMUBench](https://arxiv.org/abs/2602.01850)**          | WEAR / XRF V2  | Weakly supervised IMU temporal action localization           | IMU                                | 2026 |
+| **[WEAR benchmark](https://mariusbock.github.io/wear/)**     | WEAR           | Wearable/egocentric HAR and temporal action localization     | Accelerometer, video               | 2024 |
+| **[XRF V2](https://github.com/airslab2020/XRFV2)**           | XRF V2         | Multi-device multimodal temporal activity understanding      | IMU, Wi-Fi, video                  | 2025 |
+| **[Ego4D benchmarks](https://ego4d-data.org/)**              | Ego4D          | Egocentric recognition, forecasting and related tasks        | First-person video; subset signals | 2022 |
+| **[Ego-Exo4D](https://docs.ego-exo4d-data.org/overview/)**   | Ego-Exo4D      | Ego-exo temporal and motion understanding                    | Ego/exo video, IMU, gaze           | 2024 |
+| **[EPIC-SOUNDS](https://epic-kitchens.github.io/epic-sounds/)** | EPIC-SOUNDS    | Egocentric sound event recognition and detection             | Egocentric audio                   | 2023 |
+| **[DCASE Task 4](https://dcase.community/challenge2024/task-sound-event-detection-with-heterogeneous-training-dataset-and-potentially-missing-labels-results)** | DESED          | Sound event detection with heterogeneous and incomplete labels | Domestic audio                     | 2024 |
+| **[OctoNet](https://huggingface.co/datasets/hku-aiot/OctoNet)** | OctoNet        | Heterogeneous multimodal human-centric sensing               | Multimodal sensor streams          | 2025 |
 
 ## Research papers by topic
-
-Each paper appears once below. The format follows **title → first author → venue and year → paper link**. Papers introducing listed datasets are grouped together; the tables above link to the corresponding data access pages.
 
 ### Wearable sensing and deployment
 
@@ -181,10 +175,5 @@ Each paper appears once below. The format follows **title → first author → v
 - Handling changing people, devices, environments, and missing modalities.
 - Reporting latency, power, privacy, and other deployment costs alongside recognition accuracy.
 
-## Contributing
-
-Add a resource once to the relevant file in [assets/registry](assets/registry/README.md). Use a stable ID and a direct primary URL. For papers, record the first author and publication venue. For datasets, record the sensing configuration, tasks, scale, activity labels, scenarios, year, and the source of those facts when available. Use null for unverified values. Local scripts, third-party code, and raw datasets are not part of this repository.
-
 ## Citation
 
-When using a listed resource, cite its original paper or dataset record. A repository citation can be added when release metadata is finalized.
