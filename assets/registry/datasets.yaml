@@ -48,7 +48,7 @@
       "tal",
       "summarization"
     ],
-    "url": "https://arxiv.org/abs/2501.19034"
+    "url": "https://github.com/airslab2020/XRFV2"
   },
   {
     "id": "egoadl",
@@ -134,7 +134,7 @@
     "tasks": [
       "continual-har"
     ],
-    "url": "https://arxiv.org/abs/2301.10931"
+    "url": "https://github.com/Tflowers-0129/uestc-mmea-cl"
   },
   {
     "id": "aria-digital-twin",
@@ -196,7 +196,7 @@
     "tasks": [
       "sound-event-detection"
     ],
-    "url": "https://arxiv.org/abs/2302.00646"
+    "url": "https://epic-kitchens.github.io/epic-sounds/"
   },
   {
     "id": "capture-24",
@@ -359,6 +359,6 @@
     "tasks": [
       "multimodal-har"
     ],
-    "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/14950adea25005f89545688fe97fe5ea-Abstract-Datasets_and_Benchmarks_Track.html"
+    "url": "https://huggingface.co/datasets/hku-aiot/OctoNet"
   }
 ]

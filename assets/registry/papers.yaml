@@ -199,7 +199,7 @@
   },
   {
     "id": "hmotiongpt",
-    "title": "HMotionGPT",
+    "title": "HMotionGPT: Aligning Hand Motions and Natural Language for Activity Understanding with Smart Rings",
     "year": 2026,
     "scope": "core",
     "positions": [
@@ -392,7 +392,7 @@
   },
   {
     "id": "master",
-    "title": "MASTER",
+    "title": "MASTER: A Multi-modal Foundation Model for Human Activity Recognition",
     "year": 2025,
     "scope": "core",
     "positions": [
@@ -478,7 +478,7 @@
   },
   {
     "id": "octonet",
-    "title": "OctoNet",
+    "title": "OctoNet: A Large-Scale Multi-Modal Dataset for Human Activity Understanding Grounded in Motion-Captured 3D Pose Labels",
     "year": 2025,
     "scope": "bridge",
     "positions": [
