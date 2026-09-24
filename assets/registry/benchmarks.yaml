@@ -3,48 +3,72 @@
     "id": "ws-imubench",
     "name": "WS-IMUBench",
     "task": "Weakly supervised IMU temporal action localization",
-    "url": "https://arxiv.org/abs/2602.01850"
+    "url": "https://arxiv.org/abs/2602.01850",
+    "year": 2026,
+    "dataset": "WEAR / XRF V2",
+    "inputs": "IMU"
   },
   {
     "id": "wear",
     "name": "WEAR benchmark",
     "task": "Wearable/egocentric HAR and temporal action localization",
-    "url": "https://mariusbock.github.io/wear/"
+    "url": "https://mariusbock.github.io/wear/",
+    "year": 2024,
+    "dataset": "WEAR",
+    "inputs": "Accelerometer, video"
   },
   {
     "id": "xrf-v2",
     "name": "XRF V2",
     "task": "Multi-device multimodal temporal activity understanding",
-    "url": "https://arxiv.org/abs/2501.19034"
+    "url": "https://github.com/airslab2020/XRFV2",
+    "year": 2025,
+    "dataset": "XRF V2",
+    "inputs": "IMU, Wi-Fi, video"
   },
   {
     "id": "ego4d",
     "name": "Ego4D benchmarks",
     "task": "Egocentric recognition, forecasting and related tasks",
-    "url": "https://ego4d-data.org/"
+    "url": "https://ego4d-data.org/",
+    "year": 2022,
+    "dataset": "Ego4D",
+    "inputs": "First-person video; subset signals"
   },
   {
     "id": "ego-exo4d",
     "name": "Ego-Exo4D",
     "task": "Ego-exo temporal and motion understanding",
-    "url": "https://docs.ego-exo4d-data.org/overview/"
+    "url": "https://docs.ego-exo4d-data.org/overview/",
+    "year": 2024,
+    "dataset": "Ego-Exo4D",
+    "inputs": "Ego/exo video, IMU, gaze"
   },
   {
     "id": "epic-sounds",
     "name": "EPIC-SOUNDS",
     "task": "Egocentric sound event recognition and detection",
-    "url": "https://arxiv.org/abs/2302.00646"
+    "url": "https://epic-kitchens.github.io/epic-sounds/",
+    "year": 2023,
+    "dataset": "EPIC-SOUNDS",
+    "inputs": "Egocentric audio"
   },
   {
     "id": "dcase-task4",
     "name": "DCASE Task 4",
     "task": "Sound event detection with heterogeneous and incomplete labels",
-    "url": "https://dcase.community/challenge2024/task-sound-event-detection-with-heterogeneous-training-dataset-and-potentially-missing-labels-results"
+    "url": "https://dcase.community/challenge2024/task-sound-event-detection-with-heterogeneous-training-dataset-and-potentially-missing-labels-results",
+    "year": 2024,
+    "dataset": "DESED",
+    "inputs": "Domestic audio"
   },
   {
     "id": "octonet",
     "name": "OctoNet",
     "task": "Heterogeneous multimodal human-centric sensing",
-    "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/14950adea25005f89545688fe97fe5ea-Abstract-Datasets_and_Benchmarks_Track.html"
+    "url": "https://huggingface.co/datasets/hku-aiot/OctoNet",
+    "year": 2025,
+    "dataset": "OctoNet",
+    "inputs": "Multimodal sensor streams"
   }
 ]

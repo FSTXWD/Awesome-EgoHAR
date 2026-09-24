@@ -3,45 +3,45 @@
     "id": "wearable-har-tutorial-2025",
     "title": "Past, Present, and Future of Sensor-based Human Activity Recognition Using Wearables: A Surveying Tutorial on a Still Challenging Task",
     "year": 2025,
-    "scope": "core",
     "area": "wearable-har",
     "url": "https://doi.org/10.1145/3729467",
-    "venue": "IMWUT 2025"
+    "venue": "IMWUT 2025",
+    "first_author": "Haresamudram"
   },
   {
     "id": "generalizable-har-survey-2025",
     "title": "Towards Generalizable Human Activity Recognition: A Survey",
     "year": 2025,
-    "scope": "core",
     "area": "generalization",
     "url": "https://arxiv.org/abs/2508.12213",
-    "venue": "arXiv preprint 2025"
+    "venue": "arXiv preprint 2025",
+    "first_author": "Cai"
   },
   {
     "id": "tal-survey-2024",
     "title": "Temporal Action Localization in the Deep Learning Era: A Survey",
     "year": 2024,
-    "scope": "bridge",
     "area": "temporal-action-localization",
     "url": "https://doi.org/10.1109/TPAMI.2023.3330794",
-    "venue": "IEEE TPAMI 2024"
+    "venue": "IEEE TPAMI 2024",
+    "first_author": "Wang"
   },
   {
     "id": "tas-survey-2024",
     "title": "Temporal Action Segmentation: An Analysis of Modern Techniques",
     "year": 2024,
-    "scope": "bridge",
     "area": "temporal-action-segmentation",
     "url": "https://doi.org/10.1109/TPAMI.2023.3327284",
-    "venue": "IEEE TPAMI 2024"
+    "venue": "IEEE TPAMI 2024",
+    "first_author": "Ding"
   },
   {
     "id": "time-series-fm-survey-2024",
     "title": "Foundation Models for Time Series Analysis: A Tutorial and Survey",
     "year": 2024,
-    "scope": "bridge",
     "area": "foundation-models",
-    "url": "https://arxiv.org/abs/2403.14735",
-    "venue": "arXiv preprint 2024"
+    "url": "https://doi.org/10.1145/3637528.3671451",
+    "venue": "KDD 2024",
+    "first_author": "Liang"
   }
 ]
