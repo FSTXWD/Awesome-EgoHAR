@@ -1,8 +1,8 @@
 # Awesome EgoHAR
 
-A curated collection of datasets, benchmarks, papers, and resources for egocentric and body-centric human activity recognition and understanding.
+>  A curated collection of datasets, benchmarks, papers, and resources for egocentric and body-centric human activity recognition and understanding.
 
-Here, **egocentric** includes activity understanding from sensors carried by or attached to the wearer. We record body position, device, and sensing modality separately so readers can compare configurations across datasets and methods.
+> Here, **egocentric** includes activity understanding from sensors carried by or attached to the wearer. We record body position, device, and sensing modality separately so readers can compare configurations across datasets and methods.
 
 ## Contents
 
@@ -14,6 +14,7 @@ Here, **egocentric** includes activity understanding from sensors carried by or 
   - [Adjacent sensing resources](#adjacent-sensing-resources)
   - [Benchmark comparison](#benchmark-comparison)
 - [Research papers by topic](#research-papers-by-topic)
+  - [Paper dimension matrix](#paper-dimension-matrix)
   - [Wearable sensing and deployment](#wearable-sensing-and-deployment)
     - [Adaptive sensing and privacy](#adaptive-sensing-and-privacy)
     - [On-device recognition](#on-device-recognition)
@@ -44,8 +45,6 @@ Here, **egocentric** includes activity understanding from sensors carried by or 
 | Task | Window classification, temporal segmentation, localization, sound events, language grounding |
 | Setting | Controlled, free-living, indoor, outdoor, streaming, on-device |
 
-A smartphone is a device; its carried position is recorded separately. Related video, audio, and ambient-sensing resources are included where they provide useful methods or evaluation settings for wearer-centered activity understanding.
-
 ## Surveys and tutorials
 
 1. **"Past, Present, and Future of Sensor-based Human Activity Recognition Using Wearables: A Surveying Tutorial on a Still Challenging Task"**. *Haresamudram et al.* IMWUT 2025. [[Paper](https://doi.org/10.1145/3729467)]
@@ -55,8 +54,6 @@ A smartphone is a device; its carried position is recorded separately. Related v
 5. **"Foundation Models for Time Series Analysis: A Tutorial and Survey"**. *Liang et al.* KDD 2024. [[Paper](https://doi.org/10.1145/3637528.3671451)]
 
 ## Datasets and benchmarks
-
-Dataset names link to their access or project pages. **Data size / scale** uses the measure reported by each source (hours, file size, sequences, frames, or events), so values are not directly comparable. **—** means a figure was not verified for that release. Activity labels and sensor availability can vary by subset; for example, not every Ego4D recording includes IMU. The final columns give the dataset year and the companion paper venue or data host. Source pages for table facts are recorded in [assets/registry/datasets.yaml](assets/registry/datasets.yaml).
 
 ### Egocentric and multimodal datasets
 
@@ -105,7 +102,38 @@ Dataset names link to their access or project pages. **Data size / scale** uses 
 
 ## Research papers by topic
 
-Each paper appears once below. The format follows **title → first author → venue and year → paper link**. Papers introducing listed datasets are grouped together; the tables above link to the corresponding data access pages.
+### Paper dimension matrix
+
+This is a working classification of the papers listed below. **Sensing modalities** names all signals studied; **inference setup** separates sensors needed at deployment from signals used only for pretraining or as teachers. **Signal / representation** records the data form or learned feature space when it is central to the paper. A dash indicates that no single model representation or learning strategy is central to that paper. Dataset and adjacent-task papers remain visible so their relation to EgoHAR can be judged explicitly.
+
+| Paper | Contribution | Wearer / device | Sensing modalities | Inference setup | Signal / representation | Learning strategy | Output / task |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| **[DeepSense: A Unified Deep Learning Framework for Time-Series Mobile Sensing Data Processing](https://research.ibm.com/publications/deepsense-a-unified-deep-learning-framework-for-time-series-mobile-sensing-data-processing)**<br>*Yao et al., WWW 2017* | Method | Phone / body sensors | IMU (accel., gyro., mag.) | IMU-only; multi-sensor | Frequency segments → CNN/RNN | Supervised | HAR classification; tracking; user ID |
+| **[SAMoSA: Sensing Activities with Motion and Subsampled Audio](https://doi.org/10.1145/3550284)**<br>*Mollyn et al., IMWUT 2022* | System | Wrist / watch | IMU + low-rate audio | Conditional multimodal (IMU triggers audio) | Motion sequence + audio features | Supervised; event-triggered sensing | Activity event detection + classification |
+| **[WatchHAR: Real-time On-device Human Activity Recognition System for Smartwatches](https://doi.org/10.1145/3716553.3750775)**<br>*Yeon et al., ICMI 2025* | System | Wrist / watch | IMU + audio | Conditional multimodal (IMU triggers audio) | IMU time series + learned log-mel audio | Supervised; on-device inference | Activity event detection + classification |
+| **[HabitSense: A Privacy-Aware, AI-Enhanced Multimodal Wearable Platform for mHealth Applications](https://pmc.ncbi.nlm.nih.gov/articles/PMC11879279/)**<br>*Fernandes et al., IMWUT 2024* | System | Neck / wearable camera | IMU + RGB + thermal | Multimodal sensing; event-triggered recording | IMU trigger + image/video features | Supervised event recognition | Eating/smoking gesture detection |
+| **[MASTER: A Multi-modal Foundation Model for Human Activity Recognition](https://doi.org/10.1145/3749511)**<br>*Zhu et al., IMWUT 2025* | Foundation method | Body / device positions vary | Multiple sensing modalities | Dynamic single/multimodal combinations | Masked sensor tokens → shared embedding | Self-supervised masked modeling; few-shot alignment | HAR classification |
+| **[COCOA: Cross Modality Contrastive Learning for Sensor Data](https://doi.org/10.1145/3550316)**<br>*Deldari et al., IMWUT 2022* | Representation method | Wearable sensors | Multiple sensor modalities | Multimodal pretraining; downstream classifier | Sensor sequences → aligned latent space | Self-supervised contrastive | Downstream activity classification |
+| **[FOCAL: Contrastive Learning for Multimodal Time-Series Sensing Signals in Factorized Orthogonal Latent Space](https://proceedings.neurips.cc/paper_files/paper/2023/hash/93e98ddf39a9beb0a97fbbe56a986c80-Abstract-Conference.html)**<br>*Liu et al., NeurIPS 2023* | Representation method | Wearable sensors | Multimodal time series | Multimodal pretraining; downstream classifier | Shared/private orthogonal latent features | Self-supervised contrastive | Downstream activity classification |
+| **[Babel: A Scalable Pre-trained Model for Multi-Modal Sensing via Expandable Modality Alignment](https://doi.org/10.1145/3715014.3722068)**<br>*Dai et al., SenSys 2025* | Representation method | Wearable + ambient sensors | IMU, Wi-Fi, mmWave, LiDAR, video, depth | One or several available modalities | Modality encoders → aligned embedding | Expandable cross-modal pretraining | HAR; cross-modal retrieval |
+| **[COMODO: Cross-Modal Video-to-IMU Distillation for Efficient Egocentric Human Activity Recognition](https://doi.org/10.1145/3810218)**<br>*Chen et al., IMWUT 2026* | HAR method | Body-worn IMU | IMU; egocentric video for training | IMU-only (video teacher at training) | IMU embedding aligned to video embedding | Self-supervised cross-modal distillation | HAR classification |
+| **[RelCon: Relative Contrastive Learning for a Motion Foundation Model for Wearable Data](https://proceedings.iclr.cc/paper_files/paper/2025/hash/83eb339ed42297658fa24b5cec939285-Abstract-Conference.html)**<br>*Xu et al., ICLR 2025* | Foundation method | Wrist / wearable | Accelerometer | Single modality | Motion sequence → learned embedding | Self-supervised relative contrastive | Downstream HAR; gait regression |
+| **[Scaling Wearable Foundation Models](https://proceedings.iclr.cc/paper_files/paper/2025/hash/94b25992757a549470c8f8dfe73d8df6-Abstract-Conference.html)**<br>*Narayanswamy et al., ICLR 2025* | Foundation method | Wearable sensors | Accel., heart rate, HRV, EDA, temperature, altitude | Multimodal; variable sensor channels | Longitudinal sensor sequence → embedding | Generative pretraining | Imputation/forecasting; downstream HAR |
+| **[Inertia-1: An Open Exploration of Wearable Motion Foundation Models](https://arxiv.org/abs/2607.06617)**<br>*Xu et al., arXiv preprint 2026* | Foundation study | Wearable (varied positions) | Accelerometer | Single modality | Motion sequence → learned embedding | Pretraining objectives compared | Downstream HAR and health tasks |
+| **[Timestamp-Supervised Wearable-Based Activity Segmentation and Recognition with Contrastive Learning and Order-Preserving Optimal Transport](https://doi.org/10.1109/TMC.2024.3381171)**<br>*Xia et al., IEEE TMC 2024* | HAR method | Body-worn sensors | Wearable time series | Single sensor family | Sequence → class prototypes/embeddings | Timestamp supervision; contrastive + transport | Activity segmentation + classification |
+| **[WS-IMUBench: Can Weakly Supervised Methods from Audio, Image, and Video Be Adapted for IMU-based Temporal Action Localization?](https://arxiv.org/abs/2602.01850)**<br>*Li et al., arXiv preprint 2026* | Benchmark study | Body-worn IMUs | IMU | IMU-only; multiple compared methods | Varies by baseline | Weak supervision (sequence labels) | IMU temporal action localization |
+| **[HMotionGPT: Aligning Hand Motions and Natural Language for Activity Understanding with Smart Rings](https://doi.org/10.1145/3810222)**<br>*Gao et al., IMWUT 2026* | Activity understanding method | Finger / smart ring | IMU + language | IMU with language-model interface | IMU → discrete motion tokens → LLM | Self-supervised tokenization; instruction tuning | Activity classification; captioning; intent |
+| **[IMU2CLIP: Language-grounded Motion Sensor Translation with Multimodal Contrastive Learning](https://aclanthology.org/2023.findings-emnlp.883/)**<br>*Moon et al., Findings of EMNLP 2023* | Representation method | Body-worn IMU | IMU; video + text for pretraining | IMU embedding; text query for retrieval | IMU → CLIP joint embedding | Self-supervised cross-modal contrastive | Motion–text/video retrieval; downstream tasks |
+| **[Exploiting Representation Curvature for Boundary Detection in Time Series](https://proceedings.neurips.cc/paper_files/paper/2024/hash/0b7f639ef28a9035a71f7e0c04c1d681-Abstract-Conference.html)**<br>*Shin et al., NeurIPS 2024* | Related method | Not placement-specific | Generic time series | Single time-series input | Latent trajectory curvature | Unsupervised boundary scoring | Temporal boundary detection |
+| **[WEAR: An Outdoor Sports Dataset for Wearable and Egocentric Activity Recognition](https://doi.org/10.1145/3699776)**<br>*Bock et al., IMWUT 2024* | Dataset + baselines | Head; wrists; ankles | Egocentric video + accelerometers | Available modalities; baseline-dependent | Raw acceleration + video features; late fusion | Supervised TAL baselines | Sports HAR; temporal localization |
+| **[XRF V2: A Dataset for Action Summarization with Wi-Fi Signals, and IMUs in Phones, Watches, Earbuds, and Glasses](https://doi.org/10.1145/3749521)**<br>*Lan et al., IMWUT 2025* | Dataset + baseline | Glasses; earbuds; watch; phone | IMU + Wi-Fi + synchronized video | Available modalities; baseline-dependent | Untrimmed sensor sequences → XRFMamba | Supervised TAL baseline | Temporal localization; action summarization |
+| **[Towards Continual Egocentric Activity Recognition: A Multi-modal Egocentric Activity Dataset for Continual Learning](https://doi.org/10.1109/TMM.2023.3295899)**<br>*Xu et al., IEEE TMM 2024* | Dataset + baselines | Head / smart glasses | RGB video + accelerometer + gyroscope | Single/multimodal baselines | Modality features; varies by baseline | Supervised continual-learning baselines | Egocentric HAR under continual learning |
+| **[Multimodal Daily-Life Logging in Free-living Environment Using Non-Visual Egocentric Sensors on a Smartphone](https://doi.org/10.1145/3643553)**<br>*Sun et al., IMWUT 2024* | Dataset + HAR method | Pocket / smartphone | Audio + Wi-Fi + IMU | Multimodal sensing | Frame-wise slow/fast fusion → seq2seq text | Self-supervised cross-modal clustering + supervised recognition | Open-vocabulary ADL logging / recognition |
+| **[OctoNet: A Large-Scale Multi-Modal Dataset for Human Activity Understanding Grounded in Motion-Captured 3D Pose Labels](https://proceedings.neurips.cc/paper_files/paper/2025/hash/14950adea25005f89545688fe97fe5ea-Abstract-Datasets_and_Benchmarks_Track.html)**<br>*Yuan et al., NeurIPS Datasets and Benchmarks 2025* | Dataset (broad) | Body + environment sensors | 12 modalities incl. IMU, video, audio, radar | Available modalities; task-dependent | — | — | Activity understanding; 3D pose |
+| **[Aria Digital Twin: A New Benchmark Dataset for Egocentric 3D Machine Perception](https://openaccess.thecvf.com/content/ICCV2023/html/Pan_Aria_Digital_Twin_A_New_Benchmark_Dataset_for_Egocentric_3D_ICCV_2023_paper.html)**<br>*Pan et al., ICCV 2023* | Dataset (adjacent) | Head / Aria glasses | Video + IMU + gaze + 3D ground truth | Available modalities; task-dependent | — | — | Egocentric 3D perception (not HAR) |
+| **[EPIC-SOUNDS: A Large-scale Dataset of Actions that Sound](https://arxiv.org/abs/2302.00646)**<br>*Huh et al., ICASSP 2023* | Dataset (adjacent) | Head / egocentric camera | Egocentric audio + video context | Audio benchmark; video context available | — | — | Sound event recognition/detection (not HAR) |
+
+For an EgoHAR methods survey, the useful first split appears to be **output granularity** (clip/window classification, continuous segmentation or localization, and language-level activity understanding). Within each task, **inference inputs** distinguish single-modality sensing, multimodal fusion, and training-time cross-modal transfer. **Learning strategy** (supervised, self-supervised, weak/timestamp-supervised, continual) and **representation form** can then serve as cross-cutting tags. Dataset and benchmark papers may also introduce models, so their resource and method contributions should be coded separately. A later pass can split the compact learning-strategy column into supervision/label availability and the training objective (e.g., contrastive learning, masking, or distillation).
 
 ### Wearable sensing and deployment
 
@@ -181,10 +209,4 @@ Each paper appears once below. The format follows **title → first author → v
 - Handling changing people, devices, environments, and missing modalities.
 - Reporting latency, power, privacy, and other deployment costs alongside recognition accuracy.
 
-## Contributing
-
-Add a resource once to the relevant file in [assets/registry](assets/registry/README.md). Use a stable ID and a direct primary URL. For papers, record the first author and publication venue. For datasets, record the sensing configuration, tasks, scale, activity labels, scenarios, year, and the source of those facts when available. Use null for unverified values. Local scripts, third-party code, and raw datasets are not part of this repository.
-
 ## Citation
-
-When using a listed resource, cite its original paper or dataset record. A repository citation can be added when release metadata is finalized.

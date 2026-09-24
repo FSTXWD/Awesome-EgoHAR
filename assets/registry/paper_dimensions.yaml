@@ -1,0 +1,242 @@
+[
+  {
+    "id": "deepsense",
+    "role": "Method",
+    "placement": "Phone / body sensors",
+    "modalities": "IMU (accel., gyro., mag.)",
+    "inference": "IMU-only; multi-sensor",
+    "representation": "Frequency segments → CNN/RNN",
+    "learning": "Supervised",
+    "output": "HAR classification; tracking; user ID"
+  },
+  {
+    "id": "samosa",
+    "role": "System",
+    "placement": "Wrist / watch",
+    "modalities": "IMU + low-rate audio",
+    "inference": "Conditional multimodal (IMU triggers audio)",
+    "representation": "Motion sequence + audio features",
+    "learning": "Supervised; event-triggered sensing",
+    "output": "Activity event detection + classification"
+  },
+  {
+    "id": "watchhar",
+    "role": "System",
+    "placement": "Wrist / watch",
+    "modalities": "IMU + audio",
+    "inference": "Conditional multimodal (IMU triggers audio)",
+    "representation": "IMU time series + learned log-mel audio",
+    "learning": "Supervised; on-device inference",
+    "output": "Activity event detection + classification"
+  },
+  {
+    "id": "habitsense",
+    "role": "System",
+    "placement": "Neck / wearable camera",
+    "modalities": "IMU + RGB + thermal",
+    "inference": "Multimodal sensing; event-triggered recording",
+    "representation": "IMU trigger + image/video features",
+    "learning": "Supervised event recognition",
+    "output": "Eating/smoking gesture detection"
+  },
+  {
+    "id": "imu2clip",
+    "role": "Representation method",
+    "placement": "Body-worn IMU",
+    "modalities": "IMU; video + text for pretraining",
+    "inference": "IMU embedding; text query for retrieval",
+    "representation": "IMU → CLIP joint embedding",
+    "learning": "Self-supervised cross-modal contrastive",
+    "output": "Motion–text/video retrieval; downstream tasks"
+  },
+  {
+    "id": "cocoa",
+    "role": "Representation method",
+    "placement": "Wearable sensors",
+    "modalities": "Multiple sensor modalities",
+    "inference": "Multimodal pretraining; downstream classifier",
+    "representation": "Sensor sequences → aligned latent space",
+    "learning": "Self-supervised contrastive",
+    "output": "Downstream activity classification"
+  },
+  {
+    "id": "focal",
+    "role": "Representation method",
+    "placement": "Wearable sensors",
+    "modalities": "Multimodal time series",
+    "inference": "Multimodal pretraining; downstream classifier",
+    "representation": "Shared/private orthogonal latent features",
+    "learning": "Self-supervised contrastive",
+    "output": "Downstream activity classification"
+  },
+  {
+    "id": "babel",
+    "role": "Representation method",
+    "placement": "Wearable + ambient sensors",
+    "modalities": "IMU, Wi-Fi, mmWave, LiDAR, video, depth",
+    "inference": "One or several available modalities",
+    "representation": "Modality encoders → aligned embedding",
+    "learning": "Expandable cross-modal pretraining",
+    "output": "HAR; cross-modal retrieval"
+  },
+  {
+    "id": "comodo",
+    "role": "HAR method",
+    "placement": "Body-worn IMU",
+    "modalities": "IMU; egocentric video for training",
+    "inference": "IMU-only (video teacher at training)",
+    "representation": "IMU embedding aligned to video embedding",
+    "learning": "Self-supervised cross-modal distillation",
+    "output": "HAR classification"
+  },
+  {
+    "id": "hmotiongpt",
+    "role": "Activity understanding method",
+    "placement": "Finger / smart ring",
+    "modalities": "IMU + language",
+    "inference": "IMU with language-model interface",
+    "representation": "IMU → discrete motion tokens → LLM",
+    "learning": "Self-supervised tokenization; instruction tuning",
+    "output": "Activity classification; captioning; intent"
+  },
+  {
+    "id": "wear",
+    "role": "Dataset + baselines",
+    "placement": "Head; wrists; ankles",
+    "modalities": "Egocentric video + accelerometers",
+    "inference": "Available modalities; baseline-dependent",
+    "representation": "Raw acceleration + video features; late fusion",
+    "learning": "Supervised TAL baselines",
+    "output": "Sports HAR; temporal localization"
+  },
+  {
+    "id": "xrf-v2",
+    "role": "Dataset + baseline",
+    "placement": "Glasses; earbuds; watch; phone",
+    "modalities": "IMU + Wi-Fi + synchronized video",
+    "inference": "Available modalities; baseline-dependent",
+    "representation": "Untrimmed sensor sequences → XRFMamba",
+    "learning": "Supervised TAL baseline",
+    "output": "Temporal localization; action summarization"
+  },
+  {
+    "id": "ws-imubench",
+    "role": "Benchmark study",
+    "placement": "Body-worn IMUs",
+    "modalities": "IMU",
+    "inference": "IMU-only; multiple compared methods",
+    "representation": "Varies by baseline",
+    "learning": "Weak supervision (sequence labels)",
+    "output": "IMU temporal action localization"
+  },
+  {
+    "id": "timestamp-seg",
+    "role": "HAR method",
+    "placement": "Body-worn sensors",
+    "modalities": "Wearable time series",
+    "inference": "Single sensor family",
+    "representation": "Sequence → class prototypes/embeddings",
+    "learning": "Timestamp supervision; contrastive + transport",
+    "output": "Activity segmentation + classification"
+  },
+  {
+    "id": "recurve",
+    "role": "Related method",
+    "placement": "Not placement-specific",
+    "modalities": "Generic time series",
+    "inference": "Single time-series input",
+    "representation": "Latent trajectory curvature",
+    "learning": "Unsupervised boundary scoring",
+    "output": "Temporal boundary detection"
+  },
+  {
+    "id": "relcon",
+    "role": "Foundation method",
+    "placement": "Wrist / wearable",
+    "modalities": "Accelerometer",
+    "inference": "Single modality",
+    "representation": "Motion sequence → learned embedding",
+    "learning": "Self-supervised relative contrastive",
+    "output": "Downstream HAR; gait regression"
+  },
+  {
+    "id": "scaling-wearable-fm",
+    "role": "Foundation method",
+    "placement": "Wearable sensors",
+    "modalities": "Accel., heart rate, HRV, EDA, temperature, altitude",
+    "inference": "Multimodal; variable sensor channels",
+    "representation": "Longitudinal sensor sequence → embedding",
+    "learning": "Generative pretraining",
+    "output": "Imputation/forecasting; downstream HAR"
+  },
+  {
+    "id": "inertia-1",
+    "role": "Foundation study",
+    "placement": "Wearable (varied positions)",
+    "modalities": "Accelerometer",
+    "inference": "Single modality",
+    "representation": "Motion sequence → learned embedding",
+    "learning": "Pretraining objectives compared",
+    "output": "Downstream HAR and health tasks"
+  },
+  {
+    "id": "master",
+    "role": "Foundation method",
+    "placement": "Body / device positions vary",
+    "modalities": "Multiple sensing modalities",
+    "inference": "Dynamic single/multimodal combinations",
+    "representation": "Masked sensor tokens → shared embedding",
+    "learning": "Self-supervised masked modeling; few-shot alignment",
+    "output": "HAR classification"
+  },
+  {
+    "id": "aria-digital-twin",
+    "role": "Dataset (adjacent)",
+    "placement": "Head / Aria glasses",
+    "modalities": "Video + IMU + gaze + 3D ground truth",
+    "inference": "Available modalities; task-dependent",
+    "representation": "—",
+    "learning": "—",
+    "output": "Egocentric 3D perception (not HAR)"
+  },
+  {
+    "id": "uestc-mmea-cl",
+    "role": "Dataset + baselines",
+    "placement": "Head / smart glasses",
+    "modalities": "RGB video + accelerometer + gyroscope",
+    "inference": "Single/multimodal baselines",
+    "representation": "Modality features; varies by baseline",
+    "learning": "Supervised continual-learning baselines",
+    "output": "Egocentric HAR under continual learning"
+  },
+  {
+    "id": "ego-adl",
+    "role": "Dataset + HAR method",
+    "placement": "Pocket / smartphone",
+    "modalities": "Audio + Wi-Fi + IMU",
+    "inference": "Multimodal sensing",
+    "representation": "Frame-wise slow/fast fusion → seq2seq text",
+    "learning": "Self-supervised cross-modal clustering + supervised recognition",
+    "output": "Open-vocabulary ADL logging / recognition"
+  },
+  {
+    "id": "octonet",
+    "role": "Dataset (broad)",
+    "placement": "Body + environment sensors",
+    "modalities": "12 modalities incl. IMU, video, audio, radar",
+    "inference": "Available modalities; task-dependent",
+    "representation": "—",
+    "learning": "—",
+    "output": "Activity understanding; 3D pose"
+  },
+  {
+    "id": "epic-sounds",
+    "role": "Dataset (adjacent)",
+    "placement": "Head / egocentric camera",
+    "modalities": "Egocentric audio + video context",
+    "inference": "Audio benchmark; video context available",
+    "representation": "—",
+    "learning": "—",
+    "output": "Sound event recognition/detection (not HAR)"
+  }
+]
