@@ -2,8 +2,6 @@
 
 > A curated collection of datasets, benchmarks, papers, and resources for egocentric and body-centric human activity recognition and understanding.
 
-Papers are grouped by research topic and summarized in one cross-topic matrix. Each paper title links directly to its paper, publisher, or official proceedings page. Dataset names link to their access or project pages.
-
 ## Contents
 
 - [Surveys and tutorials](#surveys-and-tutorials)
