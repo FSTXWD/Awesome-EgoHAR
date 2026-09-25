@@ -1,14 +1,26 @@
 [
   {
+    "id": "experiments-on-an-rgb-d-wearable-vision-system-for-egocentric-activity-r",
+    "title": "Experiments on an RGB-D Wearable Vision System for Egocentric Activity Recognition",
+    "first_author": "Mohammad Moghimi",
+    "venue": "CVPR",
+    "year": 2014,
+    "url": "https://doi.org/10.1109/cvprw.2014.94",
+    "group": "Egocentric and body-centric activity recognition",
+    "topics": [
+      "A"
+    ]
+  },
+  {
     "id": "delving-egocentric",
     "title": "Delving Into Egocentric Actions",
     "first_author": "Yin Li",
     "venue": "CVPR",
     "year": 2015,
     "url": "https://openaccess.thecvf.com/content_cvpr_2015/html/Li_Delving_Into_Egocentric_2015_CVPR_paper.html",
-    "group": "Window and clip level activity recognition",
+    "group": "Egocentric and body-centric activity recognition",
     "topics": [
-      "window"
+      "A"
     ]
   },
   {
@@ -18,21 +30,9 @@
     "venue": "CVPR Workshops",
     "year": 2016,
     "url": "https://openaccess.thecvf.com/content_cvpr_2016_workshops/w13/papers/Song_Multimodal_Multi-Stream_Deep_CVPR_2016_paper.pdf",
-    "group": "Window and clip level activity recognition",
+    "group": "Egocentric and body-centric activity recognition",
     "topics": [
-      "window"
-    ]
-  },
-  {
-    "id": "joint-energy-activities",
-    "title": "Jointly Learning Energy Expenditures and Activities Using Egocentric Multimodal Signals",
-    "first_author": "Katsuyuki Nakamura",
-    "venue": "CVPR",
-    "year": 2017,
-    "url": "https://openaccess.thecvf.com/content_cvpr_2017/papers/Nakamura_Jointly_Learning_Energy_CVPR_2017_paper.pdf",
-    "group": "Window and clip level activity recognition",
-    "topics": [
-      "window"
+      "A"
     ]
   },
   {
@@ -42,9 +42,33 @@
     "venue": "ICCV Workshops",
     "year": 2017,
     "url": "https://openaccess.thecvf.com/content_ICCV_2017_workshops/w22/html/Abebe_Inertial-Vision_Cross-Domain_Knowledge_ICCV_2017_paper.html",
-    "group": "Window and clip level activity recognition",
+    "group": "Egocentric and body-centric activity recognition",
     "topics": [
-      "window"
+      "A"
+    ]
+  },
+  {
+    "id": "joint-energy-activities",
+    "title": "Jointly Learning Energy Expenditures and Activities Using Egocentric Multimodal Signals",
+    "first_author": "Katsuyuki Nakamura",
+    "venue": "CVPR",
+    "year": 2017,
+    "url": "https://openaccess.thecvf.com/content_cvpr_2017/papers/Nakamura_Jointly_Learning_Energy_CVPR_2017_paper.pdf",
+    "group": "Egocentric and body-centric activity recognition",
+    "topics": [
+      "A"
+    ]
+  },
+  {
+    "id": "scaling-egocentric-vision-the-epic-kitchens-dataset",
+    "title": "Scaling Egocentric Vision: The EPIC-KITCHENS Dataset",
+    "first_author": "Dima Damen",
+    "venue": "arXiv",
+    "year": 2018,
+    "url": "https://doi.org/10.48550/arxiv.1804.02748",
+    "group": "Egocentric and body-centric activity recognition",
+    "topics": [
+      "A"
     ]
   },
   {
@@ -54,9 +78,45 @@
     "venue": "ICCV",
     "year": 2019,
     "url": "https://openaccess.thecvf.com/content_ICCV_2019/papers/Kazakos_EPIC-Fusion_Audio-Visual_Temporal_Binding_for_Egocentric_Action_Recognition_ICCV_2019_paper.pdf",
-    "group": "Window and clip level activity recognition",
+    "group": "Egocentric and body-centric activity recognition",
     "topics": [
-      "window"
+      "A"
+    ]
+  },
+  {
+    "id": "mmact-a-large-scale-dataset-for-cross-modal-human-action-understanding",
+    "title": "MMAct: A Large-Scale Dataset for Cross Modal Human Action Understanding",
+    "first_author": "Quan Kong",
+    "venue": "ICCV",
+    "year": 2019,
+    "url": "https://doi.org/10.1109/iccv.2019.00875",
+    "group": "Egocentric and body-centric activity recognition",
+    "topics": [
+      "A"
+    ]
+  },
+  {
+    "id": "rescaling-egocentric-vision-collection-pipeline-and-challenges-for-epic-",
+    "title": "Rescaling Egocentric Vision: Collection, Pipeline and Challenges for EPIC-KITCHENS-100",
+    "first_author": "Dima Damen",
+    "venue": "International Journal of Computer Vision",
+    "year": 2021,
+    "url": "https://doi.org/10.1007/s11263-021-01531-2",
+    "group": "Egocentric and body-centric activity recognition",
+    "topics": [
+      "A"
+    ]
+  },
+  {
+    "id": "ego4d-around-the-world-in-3-000-hours-of-egocentric-video",
+    "title": "Ego4D: Around the World in 3,000 Hours of Egocentric Video",
+    "first_author": "Kristen Grauman",
+    "venue": "CVPR",
+    "year": 2022,
+    "url": "https://doi.org/10.1109/cvpr52688.2022.01842",
+    "group": "Egocentric and body-centric activity recognition",
+    "topics": [
+      "A"
     ]
   },
   {
@@ -66,21 +126,33 @@
     "venue": "NeurIPS",
     "year": 2022,
     "url": "https://proceedings.neurips.cc/paper_files/paper/2022/hash/31fb284a0aaaad837d2930a610cd5e50-Abstract-Conference.html",
-    "group": "Language grounded activity understanding",
+    "group": "Egocentric and body-centric activity recognition",
     "topics": [
-      "semantic"
+      "A"
     ]
   },
   {
-    "id": "hiervl",
-    "title": "HierVL: Learning Hierarchical Video-Language Embeddings",
-    "first_author": "Kumar Ashutosh",
-    "venue": "CVPR",
+    "id": "aria-digital-twin-a-new-benchmark-dataset-for-egocentric-3d-machine-perc",
+    "title": "Aria Digital Twin: A New Benchmark Dataset for Egocentric 3D Machine Perception",
+    "first_author": "Xiaqing Pan",
+    "venue": "ICCV",
     "year": 2023,
-    "url": "https://openaccess.thecvf.com/content/CVPR2023/html/Ashutosh_HierVL_Learning_Hierarchical_Video-Language_Embeddings_CVPR_2023_paper.html",
-    "group": "Language grounded activity understanding",
+    "url": "https://doi.org/10.1109/iccv51070.2023.01842",
+    "group": "Egocentric and body-centric activity recognition",
     "topics": [
-      "semantic"
+      "A"
+    ]
+  },
+  {
+    "id": "egolocate-real-time-motion-capture-localization-and-mapping-with-sparse-",
+    "title": "EgoLocate: Real-time Motion Capture, Localization, and Mapping with Sparse Body-mounted Sensors",
+    "first_author": "Xinyu Yi",
+    "venue": "ACM Transactions on Graphics",
+    "year": 2023,
+    "url": "https://doi.org/10.1145/3592099",
+    "group": "Egocentric and body-centric activity recognition",
+    "topics": [
+      "A"
     ]
   },
   {
@@ -90,9 +162,21 @@
     "venue": "ICCV",
     "year": 2023,
     "url": "https://openaccess.thecvf.com/content/ICCV2023/papers/Pramanick_EgoVLPv2_Egocentric_Video-Language_Pre-training_with_Fusion_in_the_Backbone_ICCV_2023_paper.pdf",
-    "group": "Language grounded activity understanding",
+    "group": "Egocentric and body-centric activity recognition",
     "topics": [
-      "semantic"
+      "A"
+    ]
+  },
+  {
+    "id": "hiervl",
+    "title": "HierVL: Learning Hierarchical Video-Language Embeddings",
+    "first_author": "Kumar Ashutosh",
+    "venue": "CVPR",
+    "year": 2023,
+    "url": "https://openaccess.thecvf.com/content/CVPR2023/html/Ashutosh_HierVL_Learning_Hierarchical_Video-Language_Embeddings_CVPR_2023_paper.html",
+    "group": "Egocentric and body-centric activity recognition",
+    "topics": [
+      "A"
     ]
   },
   {
@@ -102,9 +186,46 @@
     "venue": "ICCV",
     "year": 2023,
     "url": "https://openaccess.thecvf.com/content/ICCV2023/papers/Radevski_Multimodal_Distillation_for_Egocentric_Action_Recognition_ICCV_2023_paper.pdf",
-    "group": "Window and clip level activity recognition",
+    "group": "Egocentric and body-centric activity recognition",
     "topics": [
-      "window"
+      "A"
+    ]
+  },
+  {
+    "id": "project-aria-a-new-tool-for-egocentric-multi-modal-ai-research",
+    "title": "Project Aria: A New Tool for Egocentric Multi-Modal AI Research",
+    "first_author": "Jakob Engel",
+    "venue": "arXiv",
+    "year": 2023,
+    "url": "https://doi.org/10.48550/arxiv.2308.13561",
+    "group": "Egocentric and body-centric activity recognition",
+    "topics": [
+      "A"
+    ]
+  },
+  {
+    "id": "ego-exo4d-understanding-skilled-human-activity-from-first-and-third-pers",
+    "title": "Ego-Exo4D: Understanding Skilled Human Activity from First- and Third-Person Perspectives",
+    "first_author": "Kristen Grauman",
+    "venue": "CVPR",
+    "year": 2024,
+    "url": "https://doi.org/10.1109/cvpr52733.2024.01834",
+    "group": "Egocentric and body-centric activity recognition",
+    "topics": [
+      "A"
+    ]
+  },
+  {
+    "id": "habitsense",
+    "title": "HabitSense: A Privacy-Aware, AI-Enhanced Multimodal Wearable Platform for mHealth Applications",
+    "first_author": "Glenn J. Fernandes",
+    "venue": "IMWUT",
+    "year": 2024,
+    "url": "https://doi.org/10.1145/3678591",
+    "group": "Egocentric and body-centric activity recognition",
+    "topics": [
+      "A",
+      "G"
     ]
   },
   {
@@ -114,9 +235,46 @@
     "venue": "ECCV",
     "year": 2024,
     "url": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/2781_ECCV_2024_paper.php",
-    "group": "Window and clip level activity recognition",
+    "group": "Egocentric and body-centric activity recognition",
     "topics": [
-      "window"
+      "A"
+    ]
+  },
+  {
+    "id": "ego-adl",
+    "title": "Multimodal Daily-Life Logging in Free-living Environment Using Non-Visual Egocentric Sensors on a Smartphone",
+    "first_author": "Ke Sun",
+    "venue": "IMWUT",
+    "year": 2024,
+    "url": "https://doi.org/10.1145/3643553",
+    "group": "Egocentric and body-centric activity recognition",
+    "topics": [
+      "A"
+    ]
+  },
+  {
+    "id": "nymeria-a-massive-collection-of-egocentric-multi-modal-human-motion-in-t",
+    "title": "Nymeria: A Massive Collection of Multimodal Egocentric Daily Motion in the Wild",
+    "first_author": "Lingni Ma",
+    "venue": "ECCV",
+    "year": 2024,
+    "url": "https://doi.org/10.1007/978-3-031-72691-0_25",
+    "group": "Egocentric and body-centric activity recognition",
+    "topics": [
+      "A"
+    ]
+  },
+  {
+    "id": "soundingactions-learning-how-actions-sound-from-narrated-egocentric-vide",
+    "title": "SoundingActions: Learning How Actions Sound from Narrated Egocentric Videos",
+    "first_author": "Changan Chen",
+    "venue": "CVPR",
+    "year": 2024,
+    "url": "https://doi.org/10.1109/cvpr52733.2024.02573",
+    "group": "Egocentric and body-centric activity recognition",
+    "topics": [
+      "A",
+      "H"
     ]
   },
   {
@@ -126,573 +284,22 @@
     "venue": "CVPR",
     "year": 2024,
     "url": "https://openaccess.thecvf.com/content/CVPR2024/html/Chalk_TIM_A_Time_Interval_Machine_for_Audio-Visual_Action_Recognition_CVPR_2024_paper.html",
-    "group": "Continuous segmentation and temporal localization",
+    "group": "Egocentric and body-centric activity recognition",
     "topics": [
-      "temporal"
+      "A",
+      "H"
     ]
   },
   {
-    "id": "deepconvlstm",
-    "title": "Deep Convolutional and LSTM Recurrent Neural Networks for Multimodal Wearable Activity Recognition",
-    "first_author": "Francisco Javier Ordóñez",
-    "venue": "Sensors",
-    "year": 2016,
-    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4732148/",
-    "group": "Window and clip level activity recognition",
-    "topics": [
-      "window"
-    ]
-  },
-  {
-    "id": "deepsense",
-    "title": "DeepSense: A Unified Deep Learning Framework for Time-Series Mobile Sensing Data Processing",
-    "first_author": "Yao",
-    "venue": "WWW",
-    "year": 2017,
-    "url": "https://research.ibm.com/publications/deepsense-a-unified-deep-learning-framework-for-time-series-mobile-sensing-data-processing",
-    "group": "Window and clip level activity recognition",
-    "topics": [
-      "window"
-    ]
-  },
-  {
-    "id": "attnsense",
-    "title": "AttnSense: Multi-level Attention Mechanism for Multimodal Human Activity Recognition",
-    "first_author": "Haojie Ma",
-    "venue": "IJCAI",
-    "year": 2019,
-    "url": "https://www.ijcai.org/Proceedings/2019/431",
-    "group": "Window and clip level activity recognition",
-    "topics": [
-      "window"
-    ]
-  },
-  {
-    "id": "vision2sensor",
-    "title": "Vision2Sensor: Knowledge Transfer Across Sensing Modalities for Human Activity Recognition",
-    "first_author": "Valentin Radu",
-    "venue": "IMWUT",
-    "year": 2019,
-    "url": "https://doi.org/10.1145/3351242",
-    "group": "Window and clip level activity recognition",
-    "topics": [
-      "window"
-    ]
-  },
-  {
-    "id": "imutube",
-    "title": "IMUTube: Automatic Extraction of Virtual On-body Accelerometry from Video for Human Activity Recognition",
-    "first_author": "Hyeokhyen Kwon",
-    "venue": "IMWUT",
-    "year": 2020,
-    "url": "https://arxiv.org/abs/2006.05675",
-    "group": "Window and clip level activity recognition",
-    "topics": [
-      "window"
-    ]
-  },
-  {
-    "id": "attend-discriminate",
-    "title": "Attend and Discriminate: Beyond the State-of-the-Art for Human Activity Recognition Using Wearable Sensors",
-    "first_author": "Alireza Abedin",
-    "venue": "IMWUT",
-    "year": 2021,
-    "url": "https://doi.org/10.1145/3448083",
-    "group": "Window and clip level activity recognition",
-    "topics": [
-      "window"
-    ]
-  },
-  {
-    "id": "cocoa",
-    "title": "COCOA: Cross Modality Contrastive Learning for Sensor Data",
-    "first_author": "Reza Deldari",
-    "venue": "IMWUT",
-    "year": 2022,
-    "url": "https://doi.org/10.1145/3550316",
-    "group": "Window and clip level activity recognition",
-    "topics": [
-      "window"
-    ]
-  },
-  {
-    "id": "cosmo",
-    "title": "Cosmo: Contrastive Fusion Learning with Small Data",
-    "first_author": "Xiaomin Ouyang",
-    "venue": "MobiCom",
-    "year": 2022,
-    "url": "https://doi.org/10.1145/3495243.3560519",
-    "group": "Window and clip level activity recognition",
-    "topics": [
-      "window"
-    ]
-  },
-  {
-    "id": "sound-wrist",
-    "title": "Leveraging Sound and Wrist Motion to Detect Activities of Daily Living with Commodity Smartwatches",
-    "first_author": "Sarnab Bhattacharya",
-    "venue": "IMWUT",
-    "year": 2022,
-    "url": "https://doi.org/10.1145/3534582",
-    "group": "Window and clip level activity recognition",
-    "topics": [
-      "window"
-    ]
-  },
-  {
-    "id": "samosa",
-    "title": "SAMoSA: Sensing Activities with Motion and Subsampled Audio",
-    "first_author": "Mollyn",
-    "venue": "IMWUT",
-    "year": 2022,
-    "url": "https://doi.org/10.1145/3550284",
-    "group": "Window and clip level activity recognition",
-    "topics": [
-      "window"
-    ]
-  },
-  {
-    "id": "mesen",
-    "title": "MESEN: Exploit Multimodal Data to Design Unimodal Human Activity Recognition with Few Labels",
-    "first_author": "Lilin Xu",
-    "venue": "SenSys",
-    "year": 2023,
-    "url": "https://doi.org/10.1145/3625687.3625782",
-    "group": "Window and clip level activity recognition",
-    "topics": [
-      "window"
-    ]
-  },
-  {
-    "id": "vax",
-    "title": "VAX: Using Existing Video and Audio-based Activity Recognition Models to Bootstrap Privacy-Sensitive Sensors",
-    "first_author": "Prasoon Patidar",
-    "venue": "IMWUT",
-    "year": 2023,
-    "url": "https://doi.org/10.1145/3610907",
-    "group": "Window and clip level activity recognition",
-    "topics": [
-      "window"
-    ]
-  },
-  {
-    "id": "focal",
-    "title": "FOCAL: Contrastive Learning for Multimodal Time-Series Sensing Signals in Factorized Orthogonal Latent Space",
-    "first_author": "Wei Liu",
-    "venue": "NeurIPS",
-    "year": 2023,
-    "url": "https://proceedings.neurips.cc/paper_files/paper/2023/hash/93e98ddf39a9beb0a97fbbe56a986c80-Abstract-Conference.html",
-    "group": "Window and clip level activity recognition",
-    "topics": [
-      "window"
-    ]
-  },
-  {
-    "id": "imu2clip",
-    "title": "IMU2CLIP: Language-grounded Motion Sensor Translation with Multimodal Contrastive Learning",
-    "first_author": "Moon",
-    "venue": "Findings of EMNLP",
-    "year": 2023,
-    "url": "https://aclanthology.org/2023.findings-emnlp.883/",
-    "group": "Language grounded activity understanding",
-    "topics": [
-      "semantic"
-    ]
-  },
-  {
-    "id": "goat",
-    "title": "GOAT: A Generalized Cross-Dataset Activity Recognition Framework with Natural Language Supervision",
-    "first_author": "Shenghuan Miao",
-    "venue": "IMWUT",
+    "id": "uestc-mmea-cl",
+    "title": "Towards Continual Egocentric Activity Recognition: A Multi-modal Egocentric Activity Dataset for Continual Learning",
+    "first_author": "Linfeng Xu",
+    "venue": "IEEE TMM",
     "year": 2024,
-    "url": "https://doi.org/10.1145/3699736",
-    "group": "Language grounded activity understanding",
+    "url": "https://doi.org/10.1109/TMM.2023.3295899",
+    "group": "Egocentric and body-centric activity recognition",
     "topics": [
-      "semantic"
-    ]
-  },
-  {
-    "id": "primus",
-    "title": "PRIMUS: Pretraining IMU Encoders with Multimodal Self-Supervision",
-    "first_author": "Arnav M. Das",
-    "venue": "ICASSP",
-    "year": 2025,
-    "url": "https://arxiv.org/abs/2411.15127",
-    "group": "Window and clip level activity recognition",
-    "topics": [
-      "window"
-    ]
-  },
-  {
-    "id": "master",
-    "title": "MASTER: A Multi-modal Foundation Model for Human Activity Recognition",
-    "first_author": "Zhu",
-    "venue": "IMWUT",
-    "year": 2025,
-    "url": "https://doi.org/10.1145/3749511",
-    "group": "Window and clip level activity recognition",
-    "topics": [
-      "window"
-    ]
-  },
-  {
-    "id": "babel",
-    "title": "Babel: A Scalable Pre-trained Model for Multi-Modal Sensing via Expandable Modality Alignment",
-    "first_author": "Dai",
-    "venue": "SenSys",
-    "year": 2025,
-    "url": "https://doi.org/10.1145/3715014.3722068",
-    "group": "Window and clip level activity recognition",
-    "topics": [
-      "window"
-    ]
-  },
-  {
-    "id": "comodo",
-    "title": "COMODO: Cross-Modal Video-to-IMU Distillation for Efficient Egocentric Human Activity Recognition",
-    "first_author": "Chen",
-    "venue": "IMWUT",
-    "year": 2026,
-    "url": "https://doi.org/10.1145/3810218",
-    "group": "Window and clip level activity recognition",
-    "topics": [
-      "window"
-    ]
-  },
-  {
-    "id": "limu-bert",
-    "title": "LIMU-BERT: Unleashing the Potential of Unlabeled Data for IMU Sensing Applications",
-    "first_author": "Huatao Xu",
-    "venue": "SenSys",
-    "year": 2021,
-    "url": "https://doi.org/10.1145/3485730.3485937",
-    "group": "Window and clip level activity recognition",
-    "topics": [
-      "window"
-    ]
-  },
-  {
-    "id": "cpc-har",
-    "title": "Contrastive Predictive Coding for Human Activity Recognition",
-    "first_author": "Harish Haresamudram",
-    "venue": "IMWUT",
-    "year": 2021,
-    "url": "https://doi.org/10.1145/3472726",
-    "group": "Window and clip level activity recognition",
-    "topics": [
-      "window"
-    ]
-  },
-  {
-    "id": "selfhar",
-    "title": "SelfHAR: Improving Human Activity Recognition through Self-training with Unlabeled Data",
-    "first_author": "Chi Ian Tang",
-    "venue": "IMWUT",
-    "year": 2021,
-    "url": "https://doi.org/10.1145/3448112",
-    "group": "Window and clip level activity recognition",
-    "topics": [
-      "window"
-    ]
-  },
-  {
-    "id": "collossl",
-    "title": "ColloSSL: Collaborative Self-Supervised Learning for Human Activity Recognition",
-    "first_author": "Yash Jain",
-    "venue": "IMWUT",
-    "year": 2022,
-    "url": "https://doi.org/10.1145/3517246",
-    "group": "Window and clip level activity recognition",
-    "topics": [
-      "window"
-    ]
-  },
-  {
-    "id": "crosshar",
-    "title": "CrossHAR: Generalizing Cross-dataset Human Activity Recognition via Hierarchical Self-Supervised Pretraining",
-    "first_author": "Zhiqing Hong",
-    "venue": "IMWUT",
-    "year": 2024,
-    "url": "https://doi.org/10.1145/3659597",
-    "group": "Window and clip level activity recognition",
-    "topics": [
-      "window"
-    ]
-  },
-  {
-    "id": "700k-person-days",
-    "title": "Self-supervised Learning for Human Activity Recognition Using 700,000 Person-days of Wearable Data",
-    "first_author": "Harish Haresamudram",
-    "venue": "npj Digital Medicine",
-    "year": 2024,
-    "url": "https://www.nature.com/articles/s41746-024-01062-3",
-    "group": "Window and clip level activity recognition",
-    "topics": [
-      "window"
-    ]
-  },
-  {
-    "id": "unimts",
-    "title": "UniMTS: Unified Pre-Training for Motion Time Series",
-    "first_author": "Xiyuan Zhang",
-    "venue": "NeurIPS",
-    "year": 2024,
-    "url": "https://papers.nips.cc/paper_files/paper/2024/hash/c290d4373c495b2cad0625d6288260f0-Abstract-Conference.html",
-    "group": "Window and clip level activity recognition",
-    "topics": [
-      "window"
-    ]
-  },
-  {
-    "id": "scaling-wearable-fm",
-    "title": "Scaling Wearable Foundation Models",
-    "first_author": "Girish Narayanswamy",
-    "venue": "ICLR",
-    "year": 2025,
-    "url": "https://proceedings.iclr.cc/paper_files/paper/2025/file/94b25992757a549470c8f8dfe73d8df6-Paper-Conference.pdf",
-    "group": "Window and clip level activity recognition",
-    "topics": [
-      "window"
-    ]
-  },
-  {
-    "id": "relcon",
-    "title": "RelCon: Relative Contrastive Learning for a Motion Foundation Model for Wearable Data",
-    "first_author": "Maxwell Xu",
-    "venue": "ICLR",
-    "year": 2025,
-    "url": "https://proceedings.iclr.cc/paper_files/paper/2025/hash/83eb339ed42297658fa24b5cec939285-Abstract-Conference.html",
-    "group": "Window and clip level activity recognition",
-    "topics": [
-      "window"
-    ]
-  },
-  {
-    "id": "sensorlm",
-    "title": "SensorLM: Learning the Language of Wearable Sensors",
-    "first_author": "Yuwei Zhang",
-    "venue": "NeurIPS",
-    "year": 2025,
-    "url": "https://proceedings.nips.cc/paper_files/paper/2025/hash/42cd98f0e7520d4a63c34891ac1c972f-Abstract-Conference.html",
-    "group": "Language grounded activity understanding",
-    "topics": [
-      "semantic"
-    ]
-  },
-  {
-    "id": "mopformer",
-    "title": "MoPFormer: Motion-Primitive Transformer for Wearable-Sensor Activity Recognition",
-    "first_author": "Hao Helen Zhang",
-    "venue": "NeurIPS",
-    "year": 2025,
-    "url": "https://papers.neurips.cc/paper_files/paper/2025/hash/37ecb317d11004f77defbca54ef3b928-Abstract-Conference.html",
-    "group": "Window and clip level activity recognition",
-    "topics": [
-      "window"
-    ]
-  },
-  {
-    "id": "robusthar",
-    "title": "RobustHAR: Multi-scale Spatial-temporal Masked Self-Supervised Pre-training for HAR",
-    "first_author": "Xiao Liu",
-    "venue": "IJCAI",
-    "year": 2025,
-    "url": "https://www.ijcai.org/proceedings/2025/952",
-    "group": "Window and clip level activity recognition",
-    "topics": [
-      "window"
-    ]
-  },
-  {
-    "id": "customizable-fm",
-    "title": "Towards Customizable Foundation Models for Human Activity Recognition with Wearable Devices",
-    "first_author": "Minghui Qiu",
-    "venue": "IMWUT",
-    "year": 2025,
-    "url": "https://doi.org/10.1145/3749479",
-    "group": "Window and clip level activity recognition",
-    "topics": [
-      "window"
-    ]
-  },
-  {
-    "id": "one-model-fit-all",
-    "title": "One Model to Fit Them All: Universal IMU-based HAR with LLM-assisted Cross-dataset Representation",
-    "first_author": "Wei Qian",
-    "venue": "IMWUT",
-    "year": 2025,
-    "url": "https://doi.org/10.1145/3749509",
-    "group": "Window and clip level activity recognition",
-    "topics": [
-      "window"
-    ]
-  },
-  {
-    "id": "inertia-1",
-    "title": "Inertia-1: An Open Exploration of Wearable Motion Foundation Models",
-    "first_author": "Xu",
-    "venue": "arXiv",
-    "year": 2026,
-    "url": "https://arxiv.org/abs/2607.06617",
-    "group": "Window and clip level activity recognition",
-    "topics": [
-      "window"
-    ]
-  },
-  {
-    "id": "sensor2text",
-    "title": "Sensor2Text: Enabling Natural Language Interactions for Daily Activity Tracking Using Wearable Sensors",
-    "first_author": "Wenqiang Chen",
-    "venue": "IMWUT",
-    "year": 2024,
-    "url": "https://doi.org/10.1145/3699747",
-    "group": "Language grounded activity understanding",
-    "topics": [
-      "semantic"
-    ]
-  },
-  {
-    "id": "imugpt2",
-    "title": "IMUGPT 2.0: Language-Based Cross Modality Transfer for Sensor-Based Human Activity Recognition",
-    "first_author": "Zikang Leng",
-    "venue": "IMWUT",
-    "year": 2024,
-    "url": "https://doi.org/10.1145/3678545",
-    "group": "Language grounded activity understanding",
-    "topics": [
-      "semantic"
-    ]
-  },
-  {
-    "id": "llm4har",
-    "title": "LLM4HAR: Generalizable On-device Human Activity Recognition with Pretrained LLMs",
-    "first_author": "Zhiqing Hong",
-    "venue": "KDD",
-    "year": 2025,
-    "url": "https://doi.org/10.1145/3711896.3737226",
-    "group": "Language grounded activity understanding",
-    "topics": [
-      "semantic"
-    ]
-  },
-  {
-    "id": "imuzero",
-    "title": "IMUZero: Zero-Shot Human Activity Recognition by Language-Based Cross Modality Fusion",
-    "first_author": "Jie Su",
-    "venue": "IMWUT",
-    "year": 2025,
-    "url": "https://doi.org/10.1145/3770669",
-    "group": "Language grounded activity understanding",
-    "topics": [
-      "semantic"
-    ]
-  },
-  {
-    "id": "sensorllm",
-    "title": "SensorLLM: Aligning Large Language Models with Motion Sensors for Human Activity Recognition",
-    "first_author": "Li",
-    "venue": "EMNLP",
-    "year": 2025,
-    "url": "https://aclanthology.org/2025.emnlp-main.19/",
-    "group": "Language grounded activity understanding",
-    "topics": [
-      "semantic"
-    ]
-  },
-  {
-    "id": "hmotiongpt",
-    "title": "HMotionGPT: Aligning Hand Motions and Natural Language for Activity Understanding with Smart Rings",
-    "first_author": "Yang Gao",
-    "venue": "IMWUT",
-    "year": 2026,
-    "url": "https://doi.org/10.1145/3810222",
-    "group": "Language grounded activity understanding",
-    "topics": [
-      "semantic"
-    ]
-  },
-  {
-    "id": "katn",
-    "title": "KATN: Key Activity Detection via Inexact Supervised Learning",
-    "first_author": "Xuanke You",
-    "venue": "IMWUT",
-    "year": 2021,
-    "url": "https://doi.org/10.1145/3494957",
-    "group": "Continuous segmentation and temporal localization",
-    "topics": [
-      "temporal"
-    ]
-  },
-  {
-    "id": "timestamp-seg",
-    "title": "Timestamp-Supervised Wearable-Based Activity Segmentation and Recognition with Contrastive Learning and Order-Preserving Optimal Transport",
-    "first_author": "Xia",
-    "venue": "IEEE Transactions on Mobile Computing",
-    "year": 2024,
-    "url": "https://doi.org/10.1109/TMC.2024.3381171",
-    "group": "Continuous segmentation and temporal localization",
-    "topics": [
-      "temporal"
-    ]
-  },
-  {
-    "id": "imu-tal",
-    "title": "Temporal Action Localization for Inertial-based Human Activity Recognition",
-    "first_author": "Marius Bock",
-    "venue": "IMWUT",
-    "year": 2024,
-    "url": "https://doi.org/10.1145/3699770",
-    "group": "Continuous segmentation and temporal localization",
-    "topics": [
-      "temporal"
-    ]
-  },
-  {
-    "id": "recurve",
-    "title": "Exploiting Representation Curvature for Boundary Detection in Time Series",
-    "first_author": "Shin",
-    "venue": "NeurIPS",
-    "year": 2024,
-    "url": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/0b7f639ef28a9035a71f7e0c04c1d681-Abstract-Conference.html",
-    "group": "Continuous segmentation and temporal localization",
-    "topics": [
-      "temporal"
-    ]
-  },
-  {
-    "id": "ws-imubench",
-    "title": "WS-IMUBench: Can Weakly Supervised Methods from Audio, Image, and Video Be Adapted for IMU-based Temporal Action Localization?",
-    "first_author": "Li",
-    "venue": "arXiv",
-    "year": 2026,
-    "url": "https://arxiv.org/abs/2602.01850",
-    "group": "Continuous segmentation and temporal localization",
-    "topics": [
-      "temporal"
-    ]
-  },
-  {
-    "id": "psee",
-    "title": "PSEE: Progressive Sensor Event Expansion for Point-Supervised Temporal Action Localization",
-    "first_author": "Jiaxi Yin",
-    "venue": "arXiv",
-    "year": 2026,
-    "url": "https://arxiv.org/abs/2609.21462",
-    "group": "Continuous segmentation and temporal localization",
-    "topics": [
-      "temporal"
-    ]
-  },
-  {
-    "id": "watchhar",
-    "title": "WatchHAR: Real-time On-device Human Activity Recognition System for Smartwatches",
-    "first_author": "Yeon",
-    "venue": "ICMI",
-    "year": 2025,
-    "url": "https://doi.org/10.1145/3716553.3750775",
-    "group": "Window and clip level activity recognition",
-    "topics": [
-      "window"
+      "A"
     ]
   },
   {
@@ -702,69 +309,339 @@
     "venue": "IMWUT",
     "year": 2024,
     "url": "https://doi.org/10.1145/3699776",
-    "group": "Continuous segmentation and temporal localization",
+    "group": "Egocentric and body-centric activity recognition",
     "topics": [
-      "temporal"
+      "A",
+      "E"
     ]
   },
   {
-    "id": "xrf-v2",
-    "title": "XRF V2: A Dataset for Action Summarization with Wi-Fi Signals, and IMUs in Phones, Watches, Earbuds, and Glasses",
-    "first_author": "Song Lan",
-    "venue": "IMWUT",
+    "id": "ego4o-egocentric-human-motion-capture-and-understanding-from-multi-modal",
+    "title": "Ego4o: Egocentric Human Motion Capture and Understanding from Multi-Modal Input",
+    "first_author": "Jian Wang",
+    "venue": "CVPR",
     "year": 2025,
-    "url": "https://doi.org/10.1145/3749521",
-    "group": "Continuous segmentation and temporal localization",
+    "url": "https://doi.org/10.1109/cvpr52734.2025.02111",
+    "group": "Egocentric and body-centric activity recognition",
     "topics": [
-      "temporal"
+      "A"
     ]
   },
   {
-    "id": "uestc-mmea-cl",
-    "title": "Towards Continual Egocentric Activity Recognition: A Multi-modal Egocentric Activity Dataset for Continual Learning",
-    "first_author": "Xu",
-    "venue": "IEEE Transactions on Multimedia",
-    "year": 2024,
-    "url": "https://doi.org/10.1109/TMM.2023.3295899",
-    "group": "Window and clip level activity recognition",
-    "topics": [
-      "window"
-    ]
-  },
-  {
-    "id": "ego-adl",
-    "title": "Multimodal Daily-Life Logging in Free-living Environment Using Non-Visual Egocentric Sensors on a Smartphone",
-    "first_author": "Sun",
-    "venue": "IMWUT",
-    "year": 2024,
-    "url": "https://doi.org/10.1145/3643553",
-    "group": "Language grounded activity understanding",
-    "topics": [
-      "semantic"
-    ]
-  },
-  {
-    "id": "categorical-invariant",
-    "title": "Generalizable Sensor-Based Activity Recognition via Categorical Concept Invariant Learning",
-    "first_author": "Di Xiong",
-    "venue": "AAAI",
+    "id": "egolife-towards-egocentric-life-assistant",
+    "title": "EgoLife: Towards Egocentric Life Assistant",
+    "first_author": "Jingkang Yang",
+    "venue": "CVPR",
     "year": 2025,
-    "url": "https://ojs.aaai.org/index.php/AAAI/article/view/32077",
-    "group": "Window and clip level activity recognition",
+    "url": "https://doi.org/10.1109/cvpr52734.2025.02690",
+    "group": "Egocentric and body-centric activity recognition",
     "topics": [
-      "window"
+      "A"
     ]
   },
   {
-    "id": "habitsense",
-    "title": "HabitSense: A Privacy-Aware, AI-Enhanced Multimodal Wearable Platform for mHealth Applications",
-    "first_author": "Fernandes",
-    "venue": "IMWUT",
-    "year": 2024,
-    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11879279/",
-    "group": "Window and clip level activity recognition",
+    "id": "egom2p-egocentric-multimodal-multitask-pretraining",
+    "title": "EgoM2P: Egocentric Multimodal Multitask Pretraining",
+    "first_author": "Gen K. Li",
+    "venue": "ICCV",
+    "year": 2025,
+    "url": "https://doi.org/10.1109/iccv51701.2025.01008",
+    "group": "Egocentric and body-centric activity recognition",
     "topics": [
-      "window"
+      "A"
+    ]
+  },
+  {
+    "id": "epic-sounds",
+    "title": "EPIC-SOUNDS: A Large-Scale Dataset of Actions That Sound",
+    "first_author": "Jaesung Huh",
+    "venue": "IEEE TPAMI",
+    "year": 2025,
+    "url": "https://doi.org/10.1109/TPAMI.2025.3590390",
+    "group": "Egocentric and body-centric activity recognition",
+    "topics": [
+      "A",
+      "H"
+    ]
+  },
+  {
+    "id": "comodo",
+    "title": "COMODO: Cross-Modal Video-to-IMU Distillation for Efficient Egocentric Human Activity Recognition",
+    "first_author": "Baiyu Chen",
+    "venue": "IMWUT",
+    "year": 2026,
+    "url": "https://doi.org/10.1145/3810218",
+    "group": "Egocentric and body-centric activity recognition",
+    "topics": [
+      "A",
+      "G"
+    ]
+  },
+  {
+    "id": "ego-grounding-for-personalized-question-answering-in-egocentric-videos",
+    "title": "Ego-Grounding for Personalized Question-Answering in Egocentric Videos",
+    "first_author": "Junbin Xiao",
+    "venue": "arXiv",
+    "year": 2026,
+    "url": "https://doi.org/10.48550/arxiv.2604.01966",
+    "group": "Egocentric and body-centric activity recognition",
+    "topics": [
+      "A"
+    ]
+  },
+  {
+    "id": "deepconvlstm",
+    "title": "Deep Convolutional and LSTM Recurrent Neural Networks for Multimodal Wearable Activity Recognition",
+    "first_author": "Francisco Javier Ordóñez",
+    "venue": "Sensors",
+    "year": 2016,
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4732148/",
+    "group": "Multimodal wearable sensing and sensor fusion",
+    "topics": [
+      "B"
+    ]
+  },
+  {
+    "id": "deepsense",
+    "title": "DeepSense: A Unified Deep Learning Framework for Time-Series Mobile Sensing Data Processing",
+    "first_author": "Shuochao Yao",
+    "venue": "WWW",
+    "year": 2017,
+    "url": "https://doi.org/10.1145/3038912.3052577",
+    "group": "Multimodal wearable sensing and sensor fusion",
+    "topics": [
+      "B"
+    ]
+  },
+  {
+    "id": "attnsense",
+    "title": "AttnSense: Multi-level Attention Mechanism for Multimodal Human Activity Recognition",
+    "first_author": "Haojie Ma",
+    "venue": "IJCAI",
+    "year": 2019,
+    "url": "https://www.ijcai.org/Proceedings/2019/431",
+    "group": "Multimodal wearable sensing and sensor fusion",
+    "topics": [
+      "B"
+    ]
+  },
+  {
+    "id": "vision2sensor",
+    "title": "Vision2Sensor: Knowledge Transfer Across Sensing Modalities for Human Activity Recognition",
+    "first_author": "Valentin Radu",
+    "venue": "IMWUT",
+    "year": 2019,
+    "url": "https://doi.org/10.1145/3351242",
+    "group": "Multimodal wearable sensing and sensor fusion",
+    "topics": [
+      "B"
+    ]
+  },
+  {
+    "id": "globalfusion",
+    "title": "GlobalFusion: A Global Attentional Deep Learning Framework for Multisensor Information Fusion",
+    "first_author": "Shengzhong Liu",
+    "venue": "IMWUT",
+    "year": 2020,
+    "url": "https://doi.org/10.1145/3380999",
+    "group": "Multimodal wearable sensing and sensor fusion",
+    "topics": [
+      "B"
+    ]
+  },
+  {
+    "id": "imutube",
+    "title": "IMUTube: Automatic Extraction of Virtual On-body Accelerometry from Video for Human Activity Recognition",
+    "first_author": "Hyeokhyen Kwon",
+    "venue": "IMWUT",
+    "year": 2020,
+    "url": "https://arxiv.org/abs/2006.05675",
+    "group": "Multimodal wearable sensing and sensor fusion",
+    "topics": [
+      "B"
+    ]
+  },
+  {
+    "id": "virtual-imu-real-world",
+    "title": "Approaching the Real-World: Supporting Activity Recognition Training with Virtual IMU Data",
+    "first_author": "Hyeokhyen Kwon",
+    "venue": "IMWUT",
+    "year": 2021,
+    "url": "https://doi.org/10.1145/3478096",
+    "group": "Multimodal wearable sensing and sensor fusion",
+    "topics": [
+      "B"
+    ]
+  },
+  {
+    "id": "attend-discriminate",
+    "title": "Attend and Discriminate: Beyond the State-of-the-Art for Human Activity Recognition Using Wearable Sensors",
+    "first_author": "Alireza Abedin",
+    "venue": "IMWUT",
+    "year": 2021,
+    "url": "https://doi.org/10.1145/3448083",
+    "group": "Multimodal wearable sensing and sensor fusion",
+    "topics": [
+      "B"
+    ]
+  },
+  {
+    "id": "imu2doppler",
+    "title": "IMU2Doppler: Cross-Modal Domain Adaptation for Doppler-based Activity Recognition Using IMU Data",
+    "first_author": "Sejal Bhalla",
+    "venue": "IMWUT",
+    "year": 2021,
+    "url": "https://smashlab.io/publications/imu2dop/",
+    "group": "Multimodal wearable sensing and sensor fusion",
+    "topics": [
+      "B"
+    ]
+  },
+  {
+    "id": "zero-shot-learning-for-imu-based-activity-recognition-using-video-embedd",
+    "title": "Zero-Shot Learning for IMU-Based Activity Recognition Using Video Embeddings",
+    "first_author": "Catherine Tong",
+    "venue": "IMWUT",
+    "year": 2021,
+    "url": "https://doi.org/10.1145/3494995",
+    "group": "Multimodal wearable sensing and sensor fusion",
+    "topics": [
+      "B"
+    ]
+  },
+  {
+    "id": "cocoa",
+    "title": "COCOA: Cross Modality Contrastive Learning for Sensor Data",
+    "first_author": "Reza Deldari",
+    "venue": "IMWUT",
+    "year": 2022,
+    "url": "https://doi.org/10.1145/3550316",
+    "group": "Multimodal wearable sensing and sensor fusion",
+    "topics": [
+      "B"
+    ]
+  },
+  {
+    "id": "cosmo",
+    "title": "Cosmo: Contrastive Fusion Learning with Small Data",
+    "first_author": "Xiaomin Ouyang",
+    "venue": "MobiCom",
+    "year": 2022,
+    "url": "https://doi.org/10.1145/3495243.3560519",
+    "group": "Multimodal wearable sensing and sensor fusion",
+    "topics": [
+      "B"
+    ]
+  },
+  {
+    "id": "if-convtransformer",
+    "title": "IF-ConvTransformer: A Framework for Human Activity Recognition Using IMU Fusion and ConvTransformer",
+    "first_author": "Ye Zhang",
+    "venue": "IMWUT",
+    "year": 2022,
+    "url": "https://doi.org/10.1145/3534584",
+    "group": "Multimodal wearable sensing and sensor fusion",
+    "topics": [
+      "B"
+    ]
+  },
+  {
+    "id": "sound-wrist",
+    "title": "Leveraging Sound and Wrist Motion to Detect Activities of Daily Living with Commodity Smartwatches",
+    "first_author": "Sarnab Bhattacharya",
+    "venue": "IMWUT",
+    "year": 2022,
+    "url": "https://doi.org/10.1145/3534582",
+    "group": "Multimodal wearable sensing and sensor fusion",
+    "topics": [
+      "B",
+      "G"
+    ]
+  },
+  {
+    "id": "multi-agent-transformer-networks-for-multimodal-human-activity-recogniti",
+    "title": "Multi-agent Transformer Networks for Multimodal Human Activity Recognition",
+    "first_author": "Jingcheng Li",
+    "venue": "CIKM",
+    "year": 2022,
+    "url": "https://doi.org/10.1145/3511808.3557402",
+    "group": "Multimodal wearable sensing and sensor fusion",
+    "topics": [
+      "B"
+    ]
+  },
+  {
+    "id": "samosa",
+    "title": "SAMoSA: Sensing Activities with Motion and Subsampled Audio",
+    "first_author": "Vimal Mollyn",
+    "venue": "IMWUT",
+    "year": 2022,
+    "url": "https://doi.org/10.1145/3550284",
+    "group": "Multimodal wearable sensing and sensor fusion",
+    "topics": [
+      "B",
+      "G"
+    ]
+  },
+  {
+    "id": "dynamic-inter-sensor-correlations",
+    "title": "Towards a Dynamic Inter-Sensor Correlations Learning Framework for Multi-Sensor-Based Wearable Human Activity Recognition",
+    "first_author": "Shenghuan Miao",
+    "venue": "IMWUT",
+    "year": 2022,
+    "url": "https://doi.org/10.1145/3550331",
+    "group": "Multimodal wearable sensing and sensor fusion",
+    "topics": [
+      "B"
+    ]
+  },
+  {
+    "id": "focal",
+    "title": "FOCAL: Contrastive Learning for Multimodal Time-Series Sensing Signals in Factorized Orthogonal Latent Space",
+    "first_author": "Wei Liu",
+    "venue": "NeurIPS",
+    "year": 2023,
+    "url": "https://proceedings.neurips.cc/paper_files/paper/2023/hash/93e98ddf39a9beb0a97fbbe56a986c80-Abstract-Conference.html",
+    "group": "Multimodal wearable sensing and sensor fusion",
+    "topics": [
+      "B"
+    ]
+  },
+  {
+    "id": "hmgan",
+    "title": "HMGAN: A Hierarchical Multi-Modal Generative Adversarial Network Model for Wearable Human Activity Recognition",
+    "first_author": "Ling Chen",
+    "venue": "IMWUT",
+    "year": 2023,
+    "url": "https://doi.org/10.1145/3610909",
+    "group": "Multimodal wearable sensing and sensor fusion",
+    "topics": [
+      "B"
+    ]
+  },
+  {
+    "id": "imu2clip",
+    "title": "IMU2CLIP: Language-grounded Motion Sensor Translation with Multimodal Contrastive Learning",
+    "first_author": "Seungwhan Moon",
+    "venue": "Findings of EMNLP",
+    "year": 2023,
+    "url": "https://aclanthology.org/2023.findings-emnlp.883/",
+    "group": "Multimodal wearable sensing and sensor fusion",
+    "topics": [
+      "B",
+      "D"
+    ]
+  },
+  {
+    "id": "mesen",
+    "title": "MESEN: Exploit Multimodal Data to Design Unimodal Human Activity Recognition with Few Labels",
+    "first_author": "Lilin Xu",
+    "venue": "SenSys",
+    "year": 2023,
+    "url": "https://doi.org/10.1145/3625687.3625782",
+    "group": "Multimodal wearable sensing and sensor fusion",
+    "topics": [
+      "B"
     ]
   },
   {
@@ -774,23 +651,592 @@
     "venue": "IMWUT",
     "year": 2023,
     "url": "https://ubicomplab.cs.washington.edu/publications/mmtsa/",
-    "group": "Window and clip level activity recognition",
+    "group": "Multimodal wearable sensing and sensor fusion",
     "topics": [
-      "window",
-      "multimodal-fusion"
+      "B"
     ]
   },
   {
-    "id": "deepconvcontext",
-    "title": "DeepConvContext: A Multi-Scale Approach to Time Series Classification in Human Activity Recognition",
-    "first_author": "Marius Bock",
-    "venue": "arXiv preprint",
-    "year": 2025,
-    "url": "https://arxiv.org/abs/2505.20894",
-    "group": "Window and clip level activity recognition",
+    "id": "ts2act",
+    "title": "TS2ACT: Few-Shot Human Activity Sensing with Cross-Modal Co-Learning",
+    "first_author": "Kang Xia",
+    "venue": "IMWUT",
+    "year": 2023,
+    "url": "https://doi.org/10.1145/3631445",
+    "group": "Multimodal wearable sensing and sensor fusion",
     "topics": [
-      "window",
-      "temporal-context"
+      "B"
+    ]
+  },
+  {
+    "id": "vax",
+    "title": "VAX: Using Existing Video and Audio-based Activity Recognition Models to Bootstrap Privacy-Sensitive Sensors",
+    "first_author": "Prasoon Patidar",
+    "venue": "IMWUT",
+    "year": 2023,
+    "url": "https://doi.org/10.1145/3610907",
+    "group": "Multimodal wearable sensing and sensor fusion",
+    "topics": [
+      "B",
+      "G"
+    ]
+  },
+  {
+    "id": "crossl-cross-modal-self-supervised-learning-for-time-series-through-late",
+    "title": "CroSSL: Cross-modal Self-Supervised Learning for Time-series through Latent Masking",
+    "first_author": "Shohreh Deldari",
+    "venue": "WSDM",
+    "year": 2024,
+    "url": "https://doi.org/10.1145/3616855.3635795",
+    "group": "Multimodal wearable sensing and sensor fusion",
+    "topics": [
+      "B"
+    ]
+  },
+  {
+    "id": "goat",
+    "title": "GOAT: A Generalized Cross-Dataset Activity Recognition Framework with Natural Language Supervision",
+    "first_author": "Shenghuan Miao",
+    "venue": "IMWUT",
+    "year": 2024,
+    "url": "https://doi.org/10.1145/3699736",
+    "group": "Multimodal wearable sensing and sensor fusion",
+    "topics": [
+      "B",
+      "F"
+    ]
+  },
+  {
+    "id": "babel",
+    "title": "Babel: A Scalable Pre-trained Model for Multi-Modal Sensing via Expandable Modality Alignment",
+    "first_author": "Shenghong Dai",
+    "venue": "SenSys",
+    "year": 2025,
+    "url": "https://doi.org/10.1145/3715014.3722068",
+    "group": "Multimodal wearable sensing and sensor fusion",
+    "topics": [
+      "B"
+    ]
+  },
+  {
+    "id": "detach-decomposed-spatio-temporal-alignment-for-exocentric-video-and-amb",
+    "title": "DETACH : Decomposed Spatio-Temporal Alignment for Exocentric Video and Ambient Sensors with Staged Learning",
+    "first_author": "Junho Yoon",
+    "venue": "arXiv",
+    "year": 2025,
+    "url": "https://arxiv.org/abs/2512.20409",
+    "group": "Multimodal wearable sensing and sensor fusion",
+    "topics": [
+      "B"
+    ]
+  },
+  {
+    "id": "master",
+    "title": "MASTER: A Multi-modal Foundation Model for Human Activity Recognition",
+    "first_author": "Guanzhou Zhu",
+    "venue": "IMWUT",
+    "year": 2025,
+    "url": "https://doi.org/10.1145/3749511",
+    "group": "Multimodal wearable sensing and sensor fusion",
+    "topics": [
+      "B"
+    ]
+  },
+  {
+    "id": "motion2press-cross-model-learning-from-imu-to-plantar-pressure-for-gait-",
+    "title": "Motion2Press: Cross Model Learning from IMU to Plantar Pressure for Gait Analysis",
+    "first_author": "Junbin Ren",
+    "venue": "IMWUT",
+    "year": 2025,
+    "url": "https://doi.org/10.1145/3749499",
+    "group": "Multimodal wearable sensing and sensor fusion",
+    "topics": [
+      "B"
+    ]
+  },
+  {
+    "id": "primus",
+    "title": "PRIMUS: Pretraining IMU Encoders with Multimodal Self-Supervision",
+    "first_author": "Arnav M. Das",
+    "venue": "ICASSP",
+    "year": 2025,
+    "url": "https://arxiv.org/abs/2411.15127",
+    "group": "Multimodal wearable sensing and sensor fusion",
+    "topics": [
+      "B"
+    ]
+  },
+  {
+    "id": "xrf-v2",
+    "title": "XRF V2: A Dataset for Action Summarization with Wi-Fi Signals, and IMUs in Phones, Watches, Earbuds, and Glasses",
+    "first_author": "Song Lan",
+    "venue": "IMWUT",
+    "year": 2025,
+    "url": "https://doi.org/10.1145/3749521",
+    "group": "Multimodal wearable sensing and sensor fusion",
+    "topics": [
+      "B"
+    ]
+  },
+  {
+    "id": "multi-task-self-supervised-learning-for-human-activity-detection",
+    "title": "Multi-task Self-Supervised Learning for Human Activity Detection",
+    "first_author": "Aaqib Saeed",
+    "venue": "IMWUT",
+    "year": 2019,
+    "url": "https://doi.org/10.1145/3328932",
+    "group": "Self-supervised learning and wearable foundation models",
+    "topics": [
+      "C"
+    ]
+  },
+  {
+    "id": "federated-self-supervised-learning-of-multisensor-representations-for-em",
+    "title": "Federated Self-Supervised Learning of Multisensor Representations for Embedded Intelligence",
+    "first_author": "Aaqib Saeed",
+    "venue": "IEEE Internet of Things Journal",
+    "year": 2020,
+    "url": "https://doi.org/10.1109/jiot.2020.3009358",
+    "group": "Self-supervised learning and wearable foundation models",
+    "topics": [
+      "C"
+    ]
+  },
+  {
+    "id": "cpc-har",
+    "title": "Contrastive Predictive Coding for Human Activity Recognition",
+    "first_author": "Harish Haresamudram",
+    "venue": "IMWUT",
+    "year": 2021,
+    "url": "https://doi.org/10.1145/3472726",
+    "group": "Self-supervised learning and wearable foundation models",
+    "topics": [
+      "C"
+    ]
+  },
+  {
+    "id": "limu-bert",
+    "title": "LIMU-BERT: Unleashing the Potential of Unlabeled Data for IMU Sensing Applications",
+    "first_author": "Huatao Xu",
+    "venue": "SenSys",
+    "year": 2021,
+    "url": "https://doi.org/10.1145/3485730.3485937",
+    "group": "Self-supervised learning and wearable foundation models",
+    "topics": [
+      "C"
+    ]
+  },
+  {
+    "id": "selfhar",
+    "title": "SelfHAR: Improving Human Activity Recognition through Self-training with Unlabeled Data",
+    "first_author": "Chi Ian Tang",
+    "venue": "IMWUT",
+    "year": 2021,
+    "url": "https://doi.org/10.1145/3448112",
+    "group": "Self-supervised learning and wearable foundation models",
+    "topics": [
+      "C"
+    ]
+  },
+  {
+    "id": "unsupervised-representation-learning-for-time-series-with-temporal-neigh",
+    "title": "Unsupervised Representation Learning for Time Series with Temporal Neighborhood Coding",
+    "first_author": "Sana Tonekaboni",
+    "venue": "arXiv",
+    "year": 2021,
+    "url": "https://doi.org/10.48550/arxiv.2106.00750",
+    "group": "Self-supervised learning and wearable foundation models",
+    "topics": [
+      "C"
+    ]
+  },
+  {
+    "id": "assessing-the-state-of-self-supervised-human-activity-recognition-using-",
+    "title": "Assessing the State of Self-Supervised Human Activity Recognition Using Wearables",
+    "first_author": "Harish Haresamudram",
+    "venue": "IMWUT",
+    "year": 2022,
+    "url": "https://doi.org/10.1145/3550299",
+    "group": "Self-supervised learning and wearable foundation models",
+    "topics": [
+      "C"
+    ]
+  },
+  {
+    "id": "collossl",
+    "title": "ColloSSL: Collaborative Self-Supervised Learning for Human Activity Recognition",
+    "first_author": "Yash Jain",
+    "venue": "IMWUT",
+    "year": 2022,
+    "url": "https://doi.org/10.1145/3517246",
+    "group": "Self-supervised learning and wearable foundation models",
+    "topics": [
+      "C"
+    ]
+  },
+  {
+    "id": "small-scale-contrastive-har",
+    "title": "What Makes Good Contrastive Learning on Small-Scale Wearable-based Tasks?",
+    "first_author": "Hangwei Qian",
+    "venue": "KDD",
+    "year": 2022,
+    "url": "https://doi.org/10.1145/3534678.3539134",
+    "group": "Self-supervised learning and wearable foundation models",
+    "topics": [
+      "C"
+    ]
+  },
+  {
+    "id": "investigating-enhancements-to-contrastive-predictive-coding-for-human-ac",
+    "title": "Investigating Enhancements to Contrastive Predictive Coding for Human Activity Recognition",
+    "first_author": "Harish Haresamudram",
+    "venue": "PerCom",
+    "year": 2023,
+    "url": "https://doi.org/10.1109/percom56429.2023.10099197",
+    "group": "Self-supervised learning and wearable foundation models",
+    "topics": [
+      "C"
+    ]
+  },
+  {
+    "id": "crosshar",
+    "title": "CrossHAR: Generalizing Cross-dataset Human Activity Recognition via Hierarchical Self-Supervised Pretraining",
+    "first_author": "Zhiqing Hong",
+    "venue": "IMWUT",
+    "year": 2024,
+    "url": "https://doi.org/10.1145/3659597",
+    "group": "Self-supervised learning and wearable foundation models",
+    "topics": [
+      "C",
+      "F"
+    ]
+  },
+  {
+    "id": "700k-person-days",
+    "title": "Self-supervised Learning for Human Activity Recognition Using 700,000 Person-days of Wearable Data",
+    "first_author": "Harish Haresamudram",
+    "venue": "npj Digital Medicine",
+    "year": 2024,
+    "url": "https://www.nature.com/articles/s41746-024-01062-3",
+    "group": "Self-supervised learning and wearable foundation models",
+    "topics": [
+      "C"
+    ]
+  },
+  {
+    "id": "unimts",
+    "title": "UniMTS: Unified Pre-Training for Motion Time Series",
+    "first_author": "Xiyuan Zhang",
+    "venue": "NeurIPS",
+    "year": 2024,
+    "url": "https://papers.nips.cc/paper_files/paper/2024/hash/c290d4373c495b2cad0625d6288260f0-Abstract-Conference.html",
+    "group": "Self-supervised learning and wearable foundation models",
+    "topics": [
+      "C"
+    ]
+  },
+  {
+    "id": "mopformer",
+    "title": "MoPFormer: Motion-Primitive Transformer for Wearable-Sensor Activity Recognition",
+    "first_author": "Hao Helen Zhang",
+    "venue": "NeurIPS",
+    "year": 2025,
+    "url": "https://papers.neurips.cc/paper_files/paper/2025/hash/37ecb317d11004f77defbca54ef3b928-Abstract-Conference.html",
+    "group": "Self-supervised learning and wearable foundation models",
+    "topics": [
+      "C"
+    ]
+  },
+  {
+    "id": "one-model-fit-all",
+    "title": "One Model to Fit Them All: Universal IMU-based HAR with LLM-assisted Cross-dataset Representation",
+    "first_author": "Wei Qian",
+    "venue": "IMWUT",
+    "year": 2025,
+    "url": "https://doi.org/10.1145/3749509",
+    "group": "Self-supervised learning and wearable foundation models",
+    "topics": [
+      "C",
+      "F"
+    ]
+  },
+  {
+    "id": "relcon",
+    "title": "RelCon: Relative Contrastive Learning for a Motion Foundation Model for Wearable Data",
+    "first_author": "Maxwell Xu",
+    "venue": "ICLR",
+    "year": 2025,
+    "url": "https://proceedings.iclr.cc/paper_files/paper/2025/hash/83eb339ed42297658fa24b5cec939285-Abstract-Conference.html",
+    "group": "Self-supervised learning and wearable foundation models",
+    "topics": [
+      "C"
+    ]
+  },
+  {
+    "id": "robusthar",
+    "title": "RobustHAR: Multi-scale Spatial-temporal Masked Self-Supervised Pre-training for HAR",
+    "first_author": "Xiao Liu",
+    "venue": "IJCAI",
+    "year": 2025,
+    "url": "https://www.ijcai.org/proceedings/2025/952",
+    "group": "Self-supervised learning and wearable foundation models",
+    "topics": [
+      "C"
+    ]
+  },
+  {
+    "id": "scaling-wearable-fm",
+    "title": "Scaling Wearable Foundation Models",
+    "first_author": "Girish Narayanswamy",
+    "venue": "ICLR",
+    "year": 2025,
+    "url": "https://proceedings.iclr.cc/paper_files/paper/2025/file/94b25992757a549470c8f8dfe73d8df6-Paper-Conference.pdf",
+    "group": "Self-supervised learning and wearable foundation models",
+    "topics": [
+      "C"
+    ]
+  },
+  {
+    "id": "sensorlm",
+    "title": "SensorLM: Learning the Language of Wearable Sensors",
+    "first_author": "Yuwei Zhang",
+    "venue": "NeurIPS",
+    "year": 2025,
+    "url": "https://proceedings.nips.cc/paper_files/paper/2025/hash/42cd98f0e7520d4a63c34891ac1c972f-Abstract-Conference.html",
+    "group": "Self-supervised learning and wearable foundation models",
+    "topics": [
+      "C"
+    ]
+  },
+  {
+    "id": "customizable-fm",
+    "title": "Towards Customizable Foundation Models for Human Activity Recognition with Wearable Devices",
+    "first_author": "Minghui Qiu",
+    "venue": "IMWUT",
+    "year": 2025,
+    "url": "https://doi.org/10.1145/3749479",
+    "group": "Self-supervised learning and wearable foundation models",
+    "topics": [
+      "C"
+    ]
+  },
+  {
+    "id": "inertia-1",
+    "title": "Inertia-1: An Open Exploration of Wearable Motion Foundation Models",
+    "first_author": "Zongzhe Xu",
+    "venue": "arXiv",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2607.06617",
+    "group": "Self-supervised learning and wearable foundation models",
+    "topics": [
+      "C",
+      "F"
+    ]
+  },
+  {
+    "id": "physical-self-supervised",
+    "title": "Physical Self-Supervised Learning: IMU Sensing without Manual Labels",
+    "first_author": "Yuyang Leng",
+    "venue": "MobiSys",
+    "year": 2026,
+    "url": "https://doi.org/10.1145/3745756.3809252",
+    "group": "Self-supervised learning and wearable foundation models",
+    "topics": [
+      "C",
+      "G"
+    ]
+  },
+  {
+    "id": "wonderwall-a-virtual-to-real-foundation-model-for-imu-based-har",
+    "title": "Wonderwall: A Virtual-to-Real Foundation Model for IMU-based HAR",
+    "first_author": "Shenghuan Miao",
+    "venue": "IMWUT",
+    "year": 2026,
+    "url": "https://doi.org/10.1145/3789688",
+    "group": "Self-supervised learning and wearable foundation models",
+    "topics": [
+      "C"
+    ]
+  },
+  {
+    "id": "imagebind-one-embedding-space-to-bind-them-all",
+    "title": "ImageBind One Embedding Space to Bind Them All",
+    "first_author": "Rohit Girdhar",
+    "venue": "CVPR",
+    "year": 2023,
+    "url": "https://doi.org/10.1109/cvpr52729.2023.01457",
+    "group": "Language-grounded and open-vocabulary activity understanding",
+    "topics": [
+      "D"
+    ]
+  },
+  {
+    "id": "by-my-eyes",
+    "title": "By My Eyes: Grounding Multimodal Large Language Models with Sensor Data via Visual Prompting",
+    "first_author": "Hyungjun Yoon",
+    "venue": "EMNLP",
+    "year": 2024,
+    "url": "https://aclanthology.org/2024.emnlp-main.133/",
+    "group": "Language-grounded and open-vocabulary activity understanding",
+    "topics": [
+      "D"
+    ]
+  },
+  {
+    "id": "hargpt",
+    "title": "HARGPT: Are LLMs Zero-Shot Human Activity Recognizers?",
+    "first_author": "Sijie Ji",
+    "venue": "FMSys",
+    "year": 2024,
+    "url": "https://doi.org/10.1109/FMSys62467.2024.00011",
+    "group": "Language-grounded and open-vocabulary activity understanding",
+    "topics": [
+      "D"
+    ]
+  },
+  {
+    "id": "imugpt2",
+    "title": "IMUGPT 2.0: Language-Based Cross Modality Transfer for Sensor-Based Human Activity Recognition",
+    "first_author": "Zikang Leng",
+    "venue": "IMWUT",
+    "year": 2024,
+    "url": "https://doi.org/10.1145/3678545",
+    "group": "Language-grounded and open-vocabulary activity understanding",
+    "topics": [
+      "D"
+    ]
+  },
+  {
+    "id": "iot-lm",
+    "title": "IoT-LM: Large Multisensory Language Models for the Internet of Things",
+    "first_author": "Shentong Mo",
+    "venue": "arXiv",
+    "year": 2024,
+    "url": "https://arxiv.org/abs/2407.09801",
+    "group": "Language-grounded and open-vocabulary activity understanding",
+    "topics": [
+      "D"
+    ]
+  },
+  {
+    "id": "onellm-one-framework-to-align-all-modalities-with-language",
+    "title": "OneLLM: One Framework to Align All Modalities with Language",
+    "first_author": "Jiaming Han",
+    "venue": "CVPR",
+    "year": 2024,
+    "url": "https://doi.org/10.1109/cvpr52733.2024.02510",
+    "group": "Language-grounded and open-vocabulary activity understanding",
+    "topics": [
+      "D"
+    ]
+  },
+  {
+    "id": "sensor2text",
+    "title": "Sensor2Text: Enabling Natural Language Interactions for Daily Activity Tracking Using Wearable Sensors",
+    "first_author": "Wenqiang Chen",
+    "venue": "IMWUT",
+    "year": 2024,
+    "url": "https://doi.org/10.1145/3699747",
+    "group": "Language-grounded and open-vocabulary activity understanding",
+    "topics": [
+      "D"
+    ]
+  },
+  {
+    "id": "imuzero",
+    "title": "IMUZero: Zero-Shot Human Activity Recognition by Language-Based Cross Modality Fusion",
+    "first_author": "Jie Su",
+    "venue": "IMWUT",
+    "year": 2025,
+    "url": "https://doi.org/10.1145/3770669",
+    "group": "Language-grounded and open-vocabulary activity understanding",
+    "topics": [
+      "D"
+    ]
+  },
+  {
+    "id": "lanhar",
+    "title": "Large Language Model-guided Semantic Alignment for Human Activity Recognition",
+    "first_author": "Hua Yan",
+    "venue": "IMWUT",
+    "year": 2025,
+    "url": "https://doi.org/10.1145/3770652",
+    "group": "Language-grounded and open-vocabulary activity understanding",
+    "topics": [
+      "D"
+    ]
+  },
+  {
+    "id": "llasa-a-sensor-aware-llm-for-natural-language-reasoning-of-human-activit",
+    "title": "LLaSA: A Sensor-Aware LLM for Natural Language Reasoning of Human Activity from IMU Data",
+    "first_author": "Sheikh Asif Imran Shouborno",
+    "venue": "Companion of the 2025 ACM International Joint Conference on Pervasive and Ubiquitous Computing",
+    "year": 2025,
+    "url": "https://doi.org/10.1145/3714394.3756187",
+    "group": "Language-grounded and open-vocabulary activity understanding",
+    "topics": [
+      "D"
+    ]
+  },
+  {
+    "id": "llm4har",
+    "title": "LLM4HAR: Generalizable On-device Human Activity Recognition with Pretrained LLMs",
+    "first_author": "Zhiqing Hong",
+    "venue": "KDD",
+    "year": 2025,
+    "url": "https://doi.org/10.1145/3711896.3737226",
+    "group": "Language-grounded and open-vocabulary activity understanding",
+    "topics": [
+      "D",
+      "G"
+    ]
+  },
+  {
+    "id": "sensorllm",
+    "title": "SensorLLM: Aligning Large Language Models with Motion Sensors for Human Activity Recognition",
+    "first_author": "Zechen Li",
+    "venue": "EMNLP",
+    "year": 2025,
+    "url": "https://aclanthology.org/2025.emnlp-main.19/",
+    "group": "Language-grounded and open-vocabulary activity understanding",
+    "topics": [
+      "D"
+    ]
+  },
+  {
+    "id": "hmotiongpt",
+    "title": "HMotionGPT: Aligning Hand Motions and Natural Language for Activity Understanding with Smart Rings",
+    "first_author": "Yang Gao",
+    "venue": "IMWUT",
+    "year": 2026,
+    "url": "https://doi.org/10.1145/3810222",
+    "group": "Language-grounded and open-vocabulary activity understanding",
+    "topics": [
+      "D"
+    ]
+  },
+  {
+    "id": "tent",
+    "title": "TENT: Connect Language Models with IoT Sensors for Zero-Shot Activity Recognition",
+    "first_author": "Yunjiao Zhou",
+    "venue": "IEEE TMC",
+    "year": 2026,
+    "url": "https://doi.org/10.1109/TMC.2025.3650710",
+    "group": "Language-grounded and open-vocabulary activity understanding",
+    "topics": [
+      "D"
+    ]
+  },
+  {
+    "id": "zara-training-free-motion-time-series-reasoning-via-evidence-grounded-ll",
+    "title": "ZARA: Training-Free Motion Time-Series Reasoning via Evidence-Grounded LLM Agents",
+    "first_author": "Zechen Li",
+    "venue": "Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    "year": 2026,
+    "url": "https://doi.org/10.18653/v1/2026.acl-long.684",
+    "group": "Language-grounded and open-vocabulary activity understanding",
+    "topics": [
+      "D"
     ]
   },
   {
@@ -800,10 +1246,1205 @@
     "venue": "ICML",
     "year": 2016,
     "url": "https://proceedings.mlr.press/v48/adams16.html",
-    "group": "Continuous segmentation and temporal localization",
+    "group": "Continuous wearable recognition and temporal localization",
     "topics": [
-      "temporal",
-      "weakly-structured-labeling"
+      "E"
+    ]
+  },
+  {
+    "id": "progress-estimation-and-phase-detection-for-sequential-processes",
+    "title": "Progress Estimation and Phase Detection for Sequential Processes",
+    "first_author": "Xinyu Li",
+    "venue": "IMWUT",
+    "year": 2017,
+    "url": "https://doi.org/10.1145/3130936",
+    "group": "Continuous wearable recognition and temporal localization",
+    "topics": [
+      "E"
+    ]
+  },
+  {
+    "id": "toeplitz-inverse-covariance-based-clustering-of-multivariate-time-series",
+    "title": "Toeplitz Inverse Covariance-Based Clustering of Multivariate Time Series Data",
+    "first_author": "David Hallac",
+    "venue": "KDD",
+    "year": 2017,
+    "url": "https://doi.org/10.1145/3097983.3098060",
+    "group": "Continuous wearable recognition and temporal localization",
+    "topics": [
+      "E",
+      "J"
+    ]
+  },
+  {
+    "id": "change-point-ssa",
+    "title": "Change Point Detection via Multivariate Singular Spectrum Analysis",
+    "first_author": "Arwa Alanqary",
+    "venue": "NeurIPS",
+    "year": 2021,
+    "url": "https://papers.nips.cc/paper/2021/hash/c348616cd8a86ee661c7c98800678fad-Abstract.html",
+    "group": "Continuous wearable recognition and temporal localization",
+    "topics": [
+      "E",
+      "J"
+    ]
+  },
+  {
+    "id": "deep-explicit-duration-switching-models-for-time-series",
+    "title": "Deep Explicit Duration Switching Models for Time Series",
+    "first_author": "Abdul Fatir Ansari",
+    "venue": "arXiv",
+    "year": 2021,
+    "url": "https://doi.org/10.48550/arxiv.2110.13878",
+    "group": "Continuous wearable recognition and temporal localization",
+    "topics": [
+      "E",
+      "J"
+    ]
+  },
+  {
+    "id": "katn",
+    "title": "KATN: Key Activity Detection via Inexact Supervised Learning",
+    "first_author": "Xuanke You",
+    "venue": "IMWUT",
+    "year": 2021,
+    "url": "https://doi.org/10.1145/3494957",
+    "group": "Continuous wearable recognition and temporal localization",
+    "topics": [
+      "E"
+    ]
+  },
+  {
+    "id": "leveraging-activity-recognition-to-enable-protective-behavior-detection-",
+    "title": "Leveraging Activity Recognition to Enable Protective Behavior Detection in Continuous Data",
+    "first_author": "Chongyang Wang",
+    "venue": "IMWUT",
+    "year": 2021,
+    "url": "https://doi.org/10.1145/3463508",
+    "group": "Continuous wearable recognition and temporal localization",
+    "topics": [
+      "E"
+    ]
+  },
+  {
+    "id": "acceleration-based-activity-recognition-of-repetitive-works-with-lightwe",
+    "title": "Acceleration-based Activity Recognition of Repetitive Works with Lightweight Ordered-work Segmentation Network",
+    "first_author": "Naoya Yoshimura",
+    "venue": "IMWUT",
+    "year": 2022,
+    "url": "https://doi.org/10.1145/3534572",
+    "group": "Continuous wearable recognition and temporal localization",
+    "topics": [
+      "E"
+    ]
+  },
+  {
+    "id": "recurve",
+    "title": "Exploiting Representation Curvature for Boundary Detection in Time Series",
+    "first_author": "Yooju Shin",
+    "venue": "NeurIPS",
+    "year": 2024,
+    "url": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/0b7f639ef28a9035a71f7e0c04c1d681-Abstract-Conference.html",
+    "group": "Continuous wearable recognition and temporal localization",
+    "topics": [
+      "E",
+      "J"
+    ]
+  },
+  {
+    "id": "imu-tal",
+    "title": "Temporal Action Localization for Inertial-based Human Activity Recognition",
+    "first_author": "Marius Bock",
+    "venue": "IMWUT",
+    "year": 2024,
+    "url": "https://doi.org/10.1145/3699770",
+    "group": "Continuous wearable recognition and temporal localization",
+    "topics": [
+      "E"
+    ]
+  },
+  {
+    "id": "timestamp-seg",
+    "title": "Timestamp-Supervised Wearable-Based Activity Segmentation and Recognition with Contrastive Learning and Order-Preserving Optimal Transport",
+    "first_author": "Songpengcheng Xia",
+    "venue": "IEEE TMC",
+    "year": 2024,
+    "url": "https://doi.org/10.1109/TMC.2024.3381171",
+    "group": "Continuous wearable recognition and temporal localization",
+    "topics": [
+      "E"
+    ]
+  },
+  {
+    "id": "deepconvcontext",
+    "title": "DeepConvContext: A Multi-Scale Approach to Time Series Classification in Human Activity Recognition",
+    "first_author": "Marius Bock",
+    "venue": "arXiv",
+    "year": 2025,
+    "url": "https://arxiv.org/abs/2505.20894",
+    "group": "Continuous wearable recognition and temporal localization",
+    "topics": [
+      "E"
+    ]
+  },
+  {
+    "id": "watchhar",
+    "title": "WatchHAR: Real-time On-device Human Activity Recognition System for Smartwatches",
+    "first_author": "Taeyoung Yeon",
+    "venue": "ICMI",
+    "year": 2025,
+    "url": "https://doi.org/10.1145/3716553.3750775",
+    "group": "Continuous wearable recognition and temporal localization",
+    "topics": [
+      "E",
+      "G"
+    ]
+  },
+  {
+    "id": "psee",
+    "title": "PSEE: Progressive Sensor Event Expansion for Point-Supervised Temporal Action Localization",
+    "first_author": "Jiaxi Yin",
+    "venue": "arXiv",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2609.21462",
+    "group": "Continuous wearable recognition and temporal localization",
+    "topics": [
+      "E"
+    ]
+  },
+  {
+    "id": "ws-imubench",
+    "title": "WS-IMUBench: Can Weakly Supervised Methods from Audio, Image, and Video Be Adapted for IMU-based Temporal Action Localization?",
+    "first_author": "Pei Li",
+    "venue": "arXiv",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2602.01850",
+    "group": "Continuous wearable recognition and temporal localization",
+    "topics": [
+      "E"
+    ]
+  },
+  {
+    "id": "deep-convolutional-and-recurrent-models-for-human-activity-recognition-u",
+    "title": "Deep, Convolutional, and Recurrent Models for Human Activity Recognition using Wearables",
+    "first_author": "Nils Hammerla",
+    "venue": "arXiv",
+    "year": 2016,
+    "url": "https://doi.org/10.48550/arxiv.1604.08880",
+    "group": "Cross-person, cross-device, and sensor-position generalization",
+    "topics": [
+      "F"
+    ]
+  },
+  {
+    "id": "a-systematic-study-of-unsupervised-domain-adaptation-for-robust-human-ac",
+    "title": "A Systematic Study of Unsupervised Domain Adaptation for Robust Human-Activity Recognition",
+    "first_author": "Youngjae Chang",
+    "venue": "IMWUT",
+    "year": 2020,
+    "url": "https://doi.org/10.1145/3380985",
+    "group": "Cross-person, cross-device, and sensor-position generalization",
+    "topics": [
+      "F"
+    ]
+  },
+  {
+    "id": "incremental-real-time-personalization-in-human-activity-recognition-usin",
+    "title": "Incremental Real-Time Personalization in Human Activity Recognition Using Domain Adaptive Batch Normalization",
+    "first_author": "Alan Mazankiewicz",
+    "venue": "IMWUT",
+    "year": 2020,
+    "url": "https://doi.org/10.1145/3432230",
+    "group": "Cross-person, cross-device, and sensor-position generalization",
+    "topics": [
+      "F"
+    ]
+  },
+  {
+    "id": "xhar-deep-domain-adaptation-for-human-activity-recognition-with-smart-de",
+    "title": "XHAR: Deep Domain Adaptation for Human Activity Recognition with Smart Devices",
+    "first_author": "Zhijun Zhou",
+    "venue": "SECON",
+    "year": 2020,
+    "url": "https://doi.org/10.1109/secon48991.2020.9158431",
+    "group": "Cross-person, cross-device, and sensor-position generalization",
+    "topics": [
+      "F"
+    ]
+  },
+  {
+    "id": "latent-independent-excitation-for-generalizable-sensor-based-cross-perso",
+    "title": "Latent Independent Excitation for Generalizable Sensor-based Cross-Person Activity Recognition",
+    "first_author": "Hangwei Qian",
+    "venue": "AAAI",
+    "year": 2021,
+    "url": "https://doi.org/10.1609/aaai.v35i13.17416",
+    "group": "Cross-person, cross-device, and sensor-position generalization",
+    "topics": [
+      "F"
+    ]
+  },
+  {
+    "id": "augmented-adversarial-partial-sensor-har",
+    "title": "Augmented Adversarial Learning for Human Activity Recognition with Partial Sensor Sets",
+    "first_author": "Hua Kang",
+    "venue": "IMWUT",
+    "year": 2022,
+    "url": "https://doi.org/10.1145/3550285",
+    "group": "Cross-person, cross-device, and sensor-position generalization",
+    "topics": [
+      "F"
+    ]
+  },
+  {
+    "id": "domain-generalization-for-activity-recognition-via-adaptive-feature-fusi",
+    "title": "Domain Generalization for Activity Recognition via Adaptive Feature Fusion",
+    "first_author": "Xin Qin",
+    "venue": "ACM Transactions on Intelligent Systems and Technology",
+    "year": 2022,
+    "url": "https://doi.org/10.1145/3552434",
+    "group": "Cross-person, cross-device, and sensor-position generalization",
+    "topics": [
+      "F"
+    ]
+  },
+  {
+    "id": "semantic-discriminative-mixup-for-generalizable-sensor-based-cross-domai",
+    "title": "Semantic-Discriminative Mixup for Generalizable Sensor-based Cross-domain Activity Recognition",
+    "first_author": "Lu Wang",
+    "venue": "IMWUT",
+    "year": 2022,
+    "url": "https://doi.org/10.1145/3534589",
+    "group": "Cross-person, cross-device, and sensor-position generalization",
+    "topics": [
+      "F"
+    ]
+  },
+  {
+    "id": "generalizable-low-resource-activity-recognition-with-diverse-and-discrim",
+    "title": "Generalizable Low-Resource Activity Recognition with Diverse and Discriminative Representation Learning",
+    "first_author": "Xin Qin",
+    "venue": "KDD",
+    "year": 2023,
+    "url": "https://doi.org/10.1145/3580305.3599360",
+    "group": "Cross-person, cross-device, and sensor-position generalization",
+    "topics": [
+      "F"
+    ]
+  },
+  {
+    "id": "optimization-free-test-time-adaptation-for-cross-person-activity-recogni",
+    "title": "Optimization-Free Test-Time Adaptation for Cross-Person Activity Recognition",
+    "first_author": "Shuoyuan Wang",
+    "venue": "IMWUT",
+    "year": 2023,
+    "url": "https://doi.org/10.1145/3631450",
+    "group": "Cross-person, cross-device, and sensor-position generalization",
+    "topics": [
+      "F"
+    ]
+  },
+  {
+    "id": "sf-adapter",
+    "title": "SF-Adapter",
+    "first_author": "Hua Kang",
+    "venue": "IMWUT",
+    "year": 2023,
+    "url": "https://doi.org/10.1145/3631428",
+    "group": "Cross-person, cross-device, and sensor-position generalization",
+    "topics": [
+      "F"
+    ]
+  },
+  {
+    "id": "swl-adapt",
+    "title": "SWL-Adapt: An Unsupervised Domain Adaptation Model with Sample Weight Learning for Cross-User Wearable Human Activity Recognition",
+    "first_author": "Rong Hu",
+    "venue": "AAAI",
+    "year": 2023,
+    "url": "https://doi.org/10.1609/aaai.v37i5.25743",
+    "group": "Cross-person, cross-device, and sensor-position generalization",
+    "topics": [
+      "F"
+    ]
+  },
+  {
+    "id": "diversify-timeseries",
+    "title": "DIVERSIFY: A General Framework for Time Series Out-of-Distribution Detection and Generalization",
+    "first_author": "Wang Lu",
+    "venue": "IEEE TPAMI",
+    "year": 2024,
+    "url": "https://doi.org/10.1109/TPAMI.2024.3355212",
+    "group": "Cross-person, cross-device, and sensor-position generalization",
+    "topics": [
+      "F"
+    ]
+  },
+  {
+    "id": "hyperhar",
+    "title": "HyperHAR",
+    "first_author": "Nafees Ahmad",
+    "venue": "IMWUT",
+    "year": 2024,
+    "url": "https://doi.org/10.1145/3643511",
+    "group": "Cross-person, cross-device, and sensor-position generalization",
+    "topics": [
+      "F"
+    ]
+  },
+  {
+    "id": "deconfounding-causal-inference-through-two-branch-framework-with-early-f",
+    "title": "Deconfounding Causal Inference through Two-branch Framework with Early-forking for Sensor-based Cross-domain Activity Recognition",
+    "first_author": "Di Xiong",
+    "venue": "IMWUT",
+    "year": 2025,
+    "url": "https://doi.org/10.1145/3729495",
+    "group": "Cross-person, cross-device, and sensor-position generalization",
+    "topics": [
+      "F"
+    ]
+  },
+  {
+    "id": "categorical-invariant",
+    "title": "Generalizable Sensor-Based Activity Recognition via Categorical Concept Invariant Learning",
+    "first_author": "Di Xiong",
+    "venue": "AAAI",
+    "year": 2025,
+    "url": "https://ojs.aaai.org/index.php/AAAI/article/view/32077",
+    "group": "Cross-person, cross-device, and sensor-position generalization",
+    "topics": [
+      "F"
+    ]
+  },
+  {
+    "id": "mobhar",
+    "title": "MobHAR: Source-Free Knowledge Transfer for Human Activity Recognition on Mobile Devices",
+    "first_author": "Meng Xue",
+    "venue": "IMWUT",
+    "year": 2025,
+    "url": "https://doi.org/10.1145/3712620",
+    "group": "Cross-person, cross-device, and sensor-position generalization",
+    "topics": [
+      "F"
+    ]
+  },
+  {
+    "id": "genhar-generalizing-cross-domain-human-activity-recognition-for-last-mil",
+    "title": "GenHAR: Generalizing Cross-domain Human Activity Recognition for Last-mile Delivery",
+    "first_author": "Zhiqing Hong",
+    "venue": "arXiv",
+    "year": 2026,
+    "url": "https://doi.org/10.48550/arxiv.2605.22086",
+    "group": "Cross-person, cross-device, and sensor-position generalization",
+    "topics": [
+      "F"
+    ]
+  },
+  {
+    "id": "serandip",
+    "title": "SeRaNDiP: Selective Recognition and Discovery of Privacy-Sensitive Activities",
+    "first_author": "Ayanga Imesha Kumari Kalupahana",
+    "venue": "IMWUT",
+    "year": 2023,
+    "url": "https://doi.org/10.1145/3596252",
+    "group": "On-device sensing, privacy, and efficient systems",
+    "topics": [
+      "G"
+    ]
+  },
+  {
+    "id": "kirigami",
+    "title": "Kirigami: Lightweight Speech Filtering for Privacy-Preserving Activity Recognition Using Audio",
+    "first_author": "Sudershan Boovaraghavan",
+    "venue": "IMWUT",
+    "year": 2024,
+    "url": "https://synergylabs.github.io/kirigami/",
+    "group": "On-device sensing, privacy, and efficient systems",
+    "topics": [
+      "G"
+    ]
+  },
+  {
+    "id": "mobile-fm-firmware",
+    "title": "Mobile Foundation Model as Firmware: The Way Towards a Unified Mobile AI Landscape",
+    "first_author": "Jinliang Yuan",
+    "venue": "MobiCom",
+    "year": 2024,
+    "url": "https://doi.org/10.1145/3636534.3649361",
+    "group": "On-device sensing, privacy, and efficient systems",
+    "topics": [
+      "G"
+    ]
+  },
+  {
+    "id": "audioset-paper",
+    "title": "Audio Set: An Ontology and Human-Labeled Dataset for Audio Events",
+    "first_author": "Jort F. Gemmeke",
+    "venue": "ICASSP",
+    "year": 2017,
+    "url": "https://doi.org/10.1109/ICASSP.2017.7952261",
+    "group": "Audio event detection and egocentric audio",
+    "topics": [
+      "H"
+    ]
+  },
+  {
+    "id": "cnn-audio-classification",
+    "title": "CNN Architectures for Large-Scale Audio Classification",
+    "first_author": "Shawn Hershey",
+    "venue": "ICASSP",
+    "year": 2017,
+    "url": "https://doi.org/10.1109/ICASSP.2017.7952132",
+    "group": "Audio event detection and egocentric audio",
+    "topics": [
+      "H"
+    ]
+  },
+  {
+    "id": "look-listen-and-learn",
+    "title": "Look, Listen and Learn",
+    "first_author": "Relja Arandjelović",
+    "venue": "ICCV",
+    "year": 2017,
+    "url": "https://doi.org/10.1109/iccv.2017.73",
+    "group": "Audio event detection and egocentric audio",
+    "topics": [
+      "H"
+    ]
+  },
+  {
+    "id": "audio-visual-event-localization-in-unconstrained-videos",
+    "title": "Audio-Visual Event Localization in Unconstrained Videos",
+    "first_author": "Yapeng Tian",
+    "venue": "ECCV",
+    "year": 2018,
+    "url": "https://doi.org/10.1007/978-3-030-01216-8_16",
+    "group": "Audio event detection and egocentric audio",
+    "topics": [
+      "H"
+    ]
+  },
+  {
+    "id": "objects-that-sound",
+    "title": "Objects that Sound",
+    "first_author": "Relja Arandjelović",
+    "venue": "ECCV",
+    "year": 2018,
+    "url": "https://doi.org/10.1007/978-3-030-01246-5_27",
+    "group": "Audio event detection and egocentric audio",
+    "topics": [
+      "H"
+    ]
+  },
+  {
+    "id": "weakly-labeled-sed",
+    "title": "Sound Event Classification and Detection with Weakly Labeled Data",
+    "first_author": "Sharath Adavanne",
+    "venue": "DCASE Workshop",
+    "year": 2019,
+    "url": "https://doi.org/10.33682/fx8n-cm43",
+    "group": "Audio event detection and egocentric audio",
+    "topics": [
+      "H"
+    ]
+  },
+  {
+    "id": "desed-paper",
+    "title": "Sound Event Detection in Domestic Environments with Weakly Labeled Data and Soundscape Synthesis",
+    "first_author": "Nicolas Turpault",
+    "venue": "DCASE Workshop",
+    "year": 2019,
+    "url": "https://doi.org/10.33682/006b-jx26",
+    "group": "Audio event detection and egocentric audio",
+    "topics": [
+      "H"
+    ]
+  },
+  {
+    "id": "audioset-attention",
+    "title": "Weakly Labelled AudioSet Tagging with Attention Neural Networks",
+    "first_author": "Qiuqiang Kong",
+    "venue": "IEEE/ACM TASLP",
+    "year": 2019,
+    "url": "https://doi.org/10.1109/TASLP.2019.2930913",
+    "group": "Audio event detection and egocentric audio",
+    "topics": [
+      "H"
+    ]
+  },
+  {
+    "id": "robust-sed-evaluation",
+    "title": "A Framework for the Robust Evaluation of Sound Event Detection",
+    "first_author": "Cagdas Bilen",
+    "venue": "ICASSP",
+    "year": 2020,
+    "url": "https://doi.org/10.1109/ICASSP40776.2020.9052995",
+    "group": "Audio event detection and egocentric audio",
+    "topics": [
+      "H"
+    ]
+  },
+  {
+    "id": "panns-large-scale-pretrained-audio-neural-networks-for-audio-pattern-rec",
+    "title": "PANNs: Large-Scale Pretrained Audio Neural Networks for Audio Pattern Recognition",
+    "first_author": "Qiuqiang Kong",
+    "venue": "IEEE/ACM TASLP",
+    "year": 2020,
+    "url": "https://doi.org/10.1109/taslp.2020.3030497",
+    "group": "Audio event detection and egocentric audio",
+    "topics": [
+      "H"
+    ]
+  },
+  {
+    "id": "task-aware-mean-teacher",
+    "title": "Task-Aware Mean Teacher Method for Large Scale Weakly Labeled Semi-Supervised Sound Event Detection",
+    "first_author": "Jie Yan",
+    "venue": "ICASSP",
+    "year": 2020,
+    "url": "https://doi.org/10.1109/ICASSP40776.2020.9053073",
+    "group": "Audio event detection and egocentric audio",
+    "topics": [
+      "H"
+    ]
+  },
+  {
+    "id": "improved-mean-teacher-sed",
+    "title": "An Improved Mean Teacher Based Method for Large Scale Weakly Labeled Semi-Supervised Sound Event Detection",
+    "first_author": "Xu Zheng",
+    "venue": "ICASSP",
+    "year": 2021,
+    "url": "https://doi.org/10.1109/ICASSP39728.2021.9414931",
+    "group": "Audio event detection and egocentric audio",
+    "topics": [
+      "H"
+    ]
+  },
+  {
+    "id": "ast-audio-spectrogram-transformer",
+    "title": "AST: Audio Spectrogram Transformer",
+    "first_author": "Yuan Gong",
+    "venue": "Interspeech",
+    "year": 2021,
+    "url": "https://doi.org/10.21437/interspeech.2021-698",
+    "group": "Audio event detection and egocentric audio",
+    "topics": [
+      "H"
+    ]
+  },
+  {
+    "id": "beats-audio-pre-training-with-acoustic-tokenizers",
+    "title": "BEATs: Audio Pre-Training with Acoustic Tokenizers",
+    "first_author": "Sanyuan Chen",
+    "venue": "arXiv",
+    "year": 2022,
+    "url": "https://doi.org/10.48550/arxiv.2212.09058",
+    "group": "Audio event detection and egocentric audio",
+    "topics": [
+      "H"
+    ]
+  },
+  {
+    "id": "clap-learning-audio-concepts-from-natural-language-supervision",
+    "title": "CLAP Learning Audio Concepts from Natural Language Supervision",
+    "first_author": "Benjamin Elizalde",
+    "venue": "ICASSP",
+    "year": 2023,
+    "url": "https://doi.org/10.1109/icassp49357.2023.10095889",
+    "group": "Audio event detection and egocentric audio",
+    "topics": [
+      "H"
+    ]
+  },
+  {
+    "id": "dcase-task4-2024",
+    "title": "DCASE 2024 Task 4: Sound Event Detection with Heterogeneous Data and Missing Labels",
+    "first_author": "Samuele Cornell",
+    "venue": "DCASE Workshop",
+    "year": 2024,
+    "url": "https://arxiv.org/abs/2406.08056",
+    "group": "Audio event detection and egocentric audio",
+    "topics": [
+      "H"
+    ]
+  },
+  {
+    "id": "temporal-action-detection-with-structured-segment-networks-ssn",
+    "title": "Temporal Action Detection with Structured Segment Networks",
+    "first_author": "Yue Zhao",
+    "venue": "ICCV",
+    "year": 2017,
+    "url": "https://doi.org/10.1109/iccv.2017.317",
+    "group": "Video temporal action localization and segmentation",
+    "topics": [
+      "I"
+    ]
+  },
+  {
+    "id": "bsn-boundary-sensitive-network-for-temporal-action-proposal-generation",
+    "title": "BSN: Boundary Sensitive Network for Temporal Action Proposal Generation",
+    "first_author": "Tianwei Lin",
+    "venue": "ECCV",
+    "year": 2018,
+    "url": "https://doi.org/10.1007/978-3-030-01225-0_1",
+    "group": "Video temporal action localization and segmentation",
+    "topics": [
+      "I"
+    ]
+  },
+  {
+    "id": "bmn-boundary-matching-network-for-temporal-action-proposal-generation",
+    "title": "BMN: Boundary-Matching Network for Temporal Action Proposal Generation",
+    "first_author": "Tianwei Lin",
+    "venue": "ICCV",
+    "year": 2019,
+    "url": "https://doi.org/10.1109/iccv.2019.00399",
+    "group": "Video temporal action localization and segmentation",
+    "topics": [
+      "I"
+    ]
+  },
+  {
+    "id": "ms-tcn",
+    "title": "MS-TCN: Multi-Stage Temporal Convolutional Network for Action Segmentation",
+    "first_author": "Yazan Abu Farha",
+    "venue": "CVPR",
+    "year": 2019,
+    "url": "https://openaccess.thecvf.com/content_CVPR_2019/html/Abu_Farha_MS-TCN_A_Multi-Stage_Temporal_Convolutional_Network_for_Action_Segmentation_CVPR_2019_paper.html",
+    "group": "Video temporal action localization and segmentation",
+    "topics": [
+      "I"
+    ]
+  },
+  {
+    "id": "asformer-transformer-for-action-segmentation",
+    "title": "ASFormer: Transformer for Action Segmentation",
+    "first_author": "Fangqiu Yi",
+    "venue": "BMVC",
+    "year": 2021,
+    "url": "https://doi.org/10.5244/c.35.49",
+    "group": "Video temporal action localization and segmentation",
+    "topics": [
+      "I"
+    ]
+  },
+  {
+    "id": "cag-qil-context-aware-actionness-grouping-via-q-imitation-learning-for-o",
+    "title": "CAG-QIL: Context-Aware Actionness Grouping via Q Imitation Learning for Online Temporal Action Localization",
+    "first_author": "Hyolim Kang",
+    "venue": "ICCV",
+    "year": 2021,
+    "url": "https://doi.org/10.1109/iccv48922.2021.01347",
+    "group": "Video temporal action localization and segmentation",
+    "topics": [
+      "I"
+    ]
+  },
+  {
+    "id": "oadtr-online-action-detection-with-transformers",
+    "title": "OadTR: Online Action Detection with Transformers",
+    "first_author": "Xiang Wang",
+    "venue": "arXiv",
+    "year": 2021,
+    "url": "https://doi.org/10.48550/arxiv.2106.11149",
+    "group": "Video temporal action localization and segmentation",
+    "topics": [
+      "I"
+    ]
+  },
+  {
+    "id": "rtd-net-relaxed-transformer-decoders-for-direct-action-proposal-generati",
+    "title": "Relaxed Transformer Decoders for Direct Action Proposal Generation",
+    "first_author": "Jing Tan",
+    "venue": "ICCV",
+    "year": 2021,
+    "url": "https://doi.org/10.1109/iccv48922.2021.01327",
+    "group": "Video temporal action localization and segmentation",
+    "topics": [
+      "I"
+    ]
+  },
+  {
+    "id": "temporal-action-segmentation-from-timestamp-supervision",
+    "title": "Temporal Action Segmentation from Timestamp Supervision",
+    "first_author": "Zhe Li",
+    "venue": "CVPR",
+    "year": 2021,
+    "url": "https://doi.org/10.1109/cvpr46437.2021.00826",
+    "group": "Video temporal action localization and segmentation",
+    "topics": [
+      "I"
+    ]
+  },
+  {
+    "id": "tcanet-temporal-context-aggregation-network-for-temporal-action-proposal",
+    "title": "Temporal Context Aggregation Network for Temporal Action Proposal Refinement",
+    "first_author": "Zhiwu Qing",
+    "venue": "CVPR",
+    "year": 2021,
+    "url": "https://doi.org/10.1109/cvpr46437.2021.00055",
+    "group": "Video temporal action localization and segmentation",
+    "topics": [
+      "I"
+    ]
+  },
+  {
+    "id": "a-sliding-window-scheme-for-online-temporal-action-localization-oat",
+    "title": "A Sliding Window Scheme for Online Temporal Action Localization",
+    "first_author": "Young Hwi Kim",
+    "venue": "ECCV",
+    "year": 2022,
+    "url": "https://doi.org/10.1007/978-3-031-19830-4_37",
+    "group": "Video temporal action localization and segmentation",
+    "topics": [
+      "I"
+    ]
+  },
+  {
+    "id": "actionformer-localizing-moments-of-actions-with-transformers",
+    "title": "ActionFormer: Localizing Moments of Actions with Transformers",
+    "first_author": "Chen-Lin Zhang",
+    "venue": "ECCV",
+    "year": 2022,
+    "url": "https://doi.org/10.1007/978-3-031-19772-7_29",
+    "group": "Video temporal action localization and segmentation",
+    "topics": [
+      "I"
+    ]
+  },
+  {
+    "id": "tallformer-temporal-action-localization-with-a-long-memory-transformer",
+    "title": "TallFormer: Temporal Action Localization with a Long-Memory Transformer",
+    "first_author": "Feng Cheng",
+    "venue": "ECCV",
+    "year": 2022,
+    "url": "https://doi.org/10.1007/978-3-031-19830-4_29",
+    "group": "Video temporal action localization and segmentation",
+    "topics": [
+      "I"
+    ]
+  },
+  {
+    "id": "c2f-tcn",
+    "title": "C2F-TCN: A Framework for Semi- and Fully-Supervised Temporal Action Segmentation",
+    "first_author": "Dipika Singhania",
+    "venue": "IEEE TPAMI",
+    "year": 2023,
+    "url": "https://doi.org/10.1109/TPAMI.2023.3284080",
+    "group": "Video temporal action localization and segmentation",
+    "topics": [
+      "I"
+    ]
+  },
+  {
+    "id": "diffusion-action-segmentation",
+    "title": "Diffusion Action Segmentation",
+    "first_author": "Daochang Liu",
+    "venue": "ICCV",
+    "year": 2023,
+    "url": "https://doi.org/10.1109/iccv51070.2023.00930",
+    "group": "Video temporal action localization and segmentation",
+    "topics": [
+      "I"
+    ]
+  },
+  {
+    "id": "memory-and-anticipation-transformer-for-online-action-understanding",
+    "title": "Memory-and-Anticipation Transformer for Online Action Understanding",
+    "first_author": "Jiahao Wang",
+    "venue": "ICCV",
+    "year": 2023,
+    "url": "https://doi.org/10.1109/iccv51070.2023.01271",
+    "group": "Video temporal action localization and segmentation",
+    "topics": [
+      "I"
+    ]
+  },
+  {
+    "id": "tridet-temporal-action-detection-with-relative-boundary-modeling",
+    "title": "TriDet: Temporal Action Detection with Relative Boundary Modeling",
+    "first_author": "Dingfeng Shi",
+    "venue": "CVPR",
+    "year": 2023,
+    "url": "https://doi.org/10.1109/cvpr52729.2023.01808",
+    "group": "Video temporal action localization and segmentation",
+    "topics": [
+      "I"
+    ]
+  },
+  {
+    "id": "efficient-temporal-action-segmentation-via-boundary-aware-query-voting-b",
+    "title": "Efficient Temporal Action Segmentation via Boundary-aware Query Voting",
+    "first_author": "Peiyao Wang",
+    "venue": "NeurIPS",
+    "year": 2024,
+    "url": "https://doi.org/10.52202/079017-1192",
+    "group": "Video temporal action localization and segmentation",
+    "topics": [
+      "I"
+    ]
+  },
+  {
+    "id": "fact-action-segmentation",
+    "title": "FACT: Frame-Action Cross-Attention Temporal Modeling for Efficient Action Segmentation",
+    "first_author": "Zijia Lu",
+    "venue": "CVPR",
+    "year": 2024,
+    "url": "https://doi.org/10.1109/CVPR52733.2024.01721",
+    "group": "Video temporal action localization and segmentation",
+    "topics": [
+      "I"
+    ]
+  },
+  {
+    "id": "matr-memory-augmented-transformer-for-online-temporal-action-localizatio",
+    "title": "Online Temporal Action Localization with Memory-Augmented Transformer",
+    "first_author": "Youngkil Song",
+    "venue": "ECCV",
+    "year": 2024,
+    "url": "https://doi.org/10.1007/978-3-031-72655-2_5",
+    "group": "Video temporal action localization and segmentation",
+    "topics": [
+      "I"
+    ]
+  },
+  {
+    "id": "progress-aware-online-action-segmentation-for-egocentric-procedural-task",
+    "title": "Progress-Aware Online Action Segmentation for Egocentric Procedural Task Videos",
+    "first_author": "Yuhan Shen",
+    "venue": "CVPR",
+    "year": 2024,
+    "url": "https://doi.org/10.1109/cvpr52733.2024.01722",
+    "group": "Video temporal action localization and segmentation",
+    "topics": [
+      "I"
+    ]
+  },
+  {
+    "id": "stepwise-multi-grained-boundary-detector-for-point-supervised-temporal-a",
+    "title": "Stepwise Multi-grained Boundary Detector for Point-Supervised Temporal Action Localization",
+    "first_author": "Mengnan Liu",
+    "venue": "ECCV",
+    "year": 2024,
+    "url": "https://doi.org/10.1007/978-3-031-72667-5_19",
+    "group": "Video temporal action localization and segmentation",
+    "topics": [
+      "I"
+    ]
+  },
+  {
+    "id": "end-to-end-streaming-video-temporal-action-segmentation-with-reinforceme",
+    "title": "End-to-End Streaming Video Temporal Action Segmentation With Reinforcement Learning",
+    "first_author": "Jinrong Zhang",
+    "venue": "IEEE TNNLS",
+    "year": 2025,
+    "url": "https://doi.org/10.1109/tnnls.2025.3550910",
+    "group": "Video temporal action localization and segmentation",
+    "topics": [
+      "I"
+    ]
+  },
+  {
+    "id": "generic-event-boundary-detection-via-denoising-diffusion-diffgebd",
+    "title": "Generic Event Boundary Detection via Denoising Diffusion",
+    "first_author": "Jaejun Hwang",
+    "venue": "arXiv",
+    "year": 2025,
+    "url": "https://doi.org/10.1109/iccv51701.2025.01307",
+    "group": "Video temporal action localization and segmentation",
+    "topics": [
+      "I",
+      "J"
+    ]
+  },
+  {
+    "id": "joint-self-supervised-video-alignment-and-action-segmentation",
+    "title": "Joint Self-Supervised Video Alignment and Action Segmentation",
+    "first_author": "Ali Shaikh Ali",
+    "venue": "arXiv",
+    "year": 2025,
+    "url": "https://doi.org/10.1109/iccv51701.2025.01006",
+    "group": "Video temporal action localization and segmentation",
+    "topics": [
+      "I"
+    ]
+  },
+  {
+    "id": "online-gebd",
+    "title": "Online Generic Event Boundary Detection",
+    "first_author": "Hyungrok Jung",
+    "venue": "ICCV",
+    "year": 2025,
+    "url": "https://openaccess.thecvf.com/content/ICCV2025/html/Jung_Online_Generic_Event_Boundary_Detection_ICCV_2025_paper.html",
+    "group": "Video temporal action localization and segmentation",
+    "topics": [
+      "I",
+      "J"
+    ]
+  },
+  {
+    "id": "skeleton-motion-words-for-unsupervised-skeleton-temporal-action-segmenta",
+    "title": "Skeleton Motion Words for Unsupervised Skeleton-Based Temporal Action Segmentation",
+    "first_author": "Uzay Gökay",
+    "venue": "ICCV",
+    "year": 2025,
+    "url": "https://doi.org/10.1109/iccv51701.2025.01125",
+    "group": "Video temporal action localization and segmentation",
+    "topics": [
+      "I"
+    ]
+  },
+  {
+    "id": "curvseg",
+    "title": "Curvature-Guided Task Synergy for Skeleton-based Temporal Action Segmentation",
+    "first_author": "Guozhang Li",
+    "venue": "ICLR",
+    "year": 2026,
+    "url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/78b44e74db9f9b31256135ca1049179e-Abstract-Conference.html",
+    "group": "Video temporal action localization and segmentation",
+    "topics": [
+      "I",
+      "J"
+    ]
+  },
+  {
+    "id": "autoregressive-denoising-diffusion-models-for-multivariate-probabilistic",
+    "title": "Autoregressive Denoising Diffusion Models for Multivariate Probabilistic Time Series Forecasting",
+    "first_author": "Kashif Rasul",
+    "venue": "arXiv",
+    "year": 2021,
+    "url": "https://doi.org/10.48550/arxiv.2101.12072",
+    "group": "Time-series segmentation and boundary modeling",
+    "topics": [
+      "J"
+    ]
+  },
+  {
+    "id": "lady-lagrangian-dynamic-action-segmentation",
+    "title": "LaDy: Lagrangian-Dynamic Informed Network for Skeleton-based Action Segmentation via Spatial-Temporal Modulation",
+    "first_author": "Haoyu Ji",
+    "venue": "CVPR",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2603.24097",
+    "group": "Time-series segmentation and boundary modeling",
+    "topics": [
+      "J"
+    ]
+  },
+  {
+    "id": "ctc",
+    "title": "Connectionist Temporal Classification: Labelling Unsegmented Sequence Data with Recurrent Neural Networks",
+    "first_author": "Alex Graves",
+    "venue": "ICML",
+    "year": 2006,
+    "url": "https://www.cs.toronto.edu/~graves/icml_2006.pdf",
+    "group": "Streaming speech recognition and sequence alignment",
+    "topics": [
+      "K"
+    ]
+  },
+  {
+    "id": "rnnt",
+    "title": "Sequence Transduction with Recurrent Neural Networks",
+    "first_author": "Alex Graves",
+    "venue": "arXiv",
+    "year": 2012,
+    "url": "https://arxiv.org/abs/1211.3711",
+    "group": "Streaming speech recognition and sequence alignment",
+    "topics": [
+      "K"
+    ]
+  },
+  {
+    "id": "listen-attend-spell",
+    "title": "Listen, Attend and Spell: A Neural Network for Large Vocabulary Conversational Speech Recognition",
+    "first_author": "William Chan",
+    "venue": "ICASSP",
+    "year": 2016,
+    "url": "https://doi.org/10.1109/ICASSP.2016.7472621",
+    "group": "Streaming speech recognition and sequence alignment",
+    "topics": [
+      "K"
+    ]
+  },
+  {
+    "id": "mocha",
+    "title": "MoChA: Monotonic Chunkwise Attention",
+    "first_author": "Chung-Cheng Chiu",
+    "venue": "ICLR",
+    "year": 2018,
+    "url": "https://arxiv.org/abs/1712.05382",
+    "group": "Streaming speech recognition and sequence alignment",
+    "topics": [
+      "K"
+    ]
+  },
+  {
+    "id": "streaming-mobile-asr",
+    "title": "Streaming End-to-End Speech Recognition for Mobile Devices",
+    "first_author": "Yanzhang He",
+    "venue": "ICASSP",
+    "year": 2019,
+    "url": "https://doi.org/10.1109/ICASSP.2019.8682336",
+    "group": "Streaming speech recognition and sequence alignment",
+    "topics": [
+      "K"
+    ]
+  },
+  {
+    "id": "enhancing-mma-streaming-asr",
+    "title": "Enhancing Monotonic Multihead Attention for Streaming ASR",
+    "first_author": "Hirofumi Inaguma",
+    "venue": "Interspeech",
+    "year": 2020,
+    "url": "https://arxiv.org/abs/2005.09394",
+    "group": "Streaming speech recognition and sequence alignment",
+    "topics": [
+      "K"
+    ]
+  },
+  {
+    "id": "wav2vec-2",
+    "title": "wav2vec 2.0: A Framework for Self-Supervised Learning of Speech Representations",
+    "first_author": "Alexei Baevski",
+    "venue": "NeurIPS",
+    "year": 2020,
+    "url": "https://papers.nips.cc/paper_files/paper/2020/hash/92d1e1eb1cd6f9fba3227870bb6d7f07-Abstract.html",
+    "group": "Streaming speech recognition and sequence alignment",
+    "topics": [
+      "K"
+    ]
+  },
+  {
+    "id": "emformer",
+    "title": "Emformer: Efficient Memory Transformer Based Acoustic Model for Low Latency Streaming Speech Recognition",
+    "first_author": "Yangyang Shi",
+    "venue": "ICASSP",
+    "year": 2021,
+    "url": "https://doi.org/10.1109/ICASSP39728.2021.9414560",
+    "group": "Streaming speech recognition and sequence alignment",
+    "topics": [
+      "K"
+    ]
+  },
+  {
+    "id": "fastemit",
+    "title": "FastEmit: Low-Latency Streaming ASR with Sequence-Level Emission Regularization",
+    "first_author": "Jiahui Yu",
+    "venue": "ICASSP",
+    "year": 2021,
+    "url": "https://doi.org/10.1109/ICASSP39728.2021.9413803",
+    "group": "Streaming speech recognition and sequence alignment",
+    "topics": [
+      "K"
+    ]
+  },
+  {
+    "id": "token-duration-transducer",
+    "title": "Efficient Sequence Transduction by Jointly Predicting Tokens and Durations",
+    "first_author": "Hainan Xu",
+    "venue": "ICML",
+    "year": 2023,
+    "url": "https://proceedings.mlr.press/v202/xu23g.html",
+    "group": "Streaming speech recognition and sequence alignment",
+    "topics": [
+      "K"
+    ]
+  },
+  {
+    "id": "whisper",
+    "title": "Robust Speech Recognition via Large-Scale Weak Supervision",
+    "first_author": "Alec Radford",
+    "venue": "ICML",
+    "year": 2023,
+    "url": "https://proceedings.mlr.press/v202/radford23a.html",
+    "group": "Streaming speech recognition and sequence alignment",
+    "topics": [
+      "K"
+    ]
+  },
+  {
+    "id": "seamlessm4t",
+    "title": "SeamlessM4T: Massively Multilingual and Multimodal Machine Translation",
+    "first_author": "Seamless Communication",
+    "venue": "arXiv",
+    "year": 2023,
+    "url": "https://arxiv.org/abs/2308.11596",
+    "group": "Streaming speech recognition and sequence alignment",
+    "topics": [
+      "K"
+    ]
+  },
+  {
+    "id": "real-time-nmt",
+    "title": "Learning to Translate in Real-time with Neural Machine Translation",
+    "first_author": "Jiatao Gu",
+    "venue": "EACL",
+    "year": 2017,
+    "url": "https://aclanthology.org/E17-1099/",
+    "group": "Simultaneous translation and online policies",
+    "topics": [
+      "L"
+    ]
+  },
+  {
+    "id": "stacl",
+    "title": "STACL: Simultaneous Translation with Implicit Anticipation and Controllable Latency using Prefix-to-Prefix Framework",
+    "first_author": "Mingbo Ma",
+    "venue": "ACL",
+    "year": 2019,
+    "url": "https://aclanthology.org/P19-1289/",
+    "group": "Simultaneous translation and online policies",
+    "topics": [
+      "L"
+    ]
+  },
+  {
+    "id": "monotonic-multihead-attention",
+    "title": "Monotonic Multihead Attention",
+    "first_author": "Xutai Ma",
+    "venue": "ICLR",
+    "year": 2020,
+    "url": "https://arxiv.org/abs/1909.12406",
+    "group": "Simultaneous translation and online policies",
+    "topics": [
+      "L"
+    ]
+  },
+  {
+    "id": "efficient-mma",
+    "title": "Efficient Monotonic Multihead Attention",
+    "first_author": "Xutai Ma",
+    "venue": "arXiv",
+    "year": 2023,
+    "url": "https://arxiv.org/abs/2312.04515",
+    "group": "Simultaneous translation and online policies",
+    "topics": [
+      "L"
+    ]
+  },
+  {
+    "id": "seamless-streaming",
+    "title": "Seamless: Multilingual Expressive and Streaming Speech Translation",
+    "first_author": "Seamless Communication",
+    "venue": "arXiv",
+    "year": 2023,
+    "url": "https://arxiv.org/abs/2312.05187",
+    "group": "Simultaneous translation and online policies",
+    "topics": [
+      "L"
+    ]
+  },
+  {
+    "id": "self-modifying-state-mt",
+    "title": "Self-Modifying State Modeling for Simultaneous Machine Translation",
+    "first_author": "Donglei Yu",
+    "venue": "ACL",
+    "year": 2024,
+    "url": "https://aclanthology.org/2024.acl-long.528/",
+    "group": "Simultaneous translation and online policies",
+    "topics": [
+      "L"
     ]
   }
 ]
