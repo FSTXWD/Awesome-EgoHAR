@@ -87,13 +87,9 @@
 | **[DCASE Task 4](https://dcase.community/challenge2024/task-sound-event-detection-with-heterogeneous-training-dataset-and-potentially-missing-labels-results)** | DESED          | Sound event detection with heterogeneous and incomplete labels | Domestic audio                     | 2024 |
 | **[OctoNet](https://huggingface.co/datasets/hku-aiot/OctoNet)** | OctoNet        | Heterogeneous multimodal human-centric sensing               | Multimodal sensor streams          | 2025 |
 
-## Papers by research topic
-
-The topic groups organize the literature by the input setup, learning approach, and output studied. A paper may appear under more than one topic in this section when it contributes to multiple lines; the matrix below lists each unique paper once.
+## Papers
 
 ### Egocentric and body-centric activity recognition
-
-First-person video and body-worn sensing capture different parts of an activity. These studies cover egocentric action labels, paired camera and inertial inputs, multimodal datasets, and video-language representations.
 
 - **Experiments on an RGB-D Wearable Vision System for Egocentric Activity Recognition**. *Mohammad Moghimi et al.* CVPR 2014. [[Paper](https://doi.org/10.1109/cvprw.2014.94)]
 - **Delving Into Egocentric Actions**. *Yin Li et al.* CVPR 2015. [[Paper](https://openaccess.thecvf.com/content_cvpr_2015/html/Li_Delving_Into_Egocentric_2015_CVPR_paper.html)]
@@ -130,8 +126,6 @@ First-person video and body-worn sensing capture different parts of an activity.
 
 ### Multimodal wearable sensing and sensor fusion
 
-These papers compare sensor fusion, cross-modal transfer, distillation, and co-learning. The input columns distinguish signals used at inference from signals that appear only during training when the publication reports that distinction.
-
 - **Deep Convolutional and LSTM Recurrent Neural Networks for Multimodal Wearable Activity Recognition**. *Francisco Javier Ordóñez et al.* Sensors 2016. [[Paper](https://pmc.ncbi.nlm.nih.gov/articles/PMC4732148/)]
 - **DeepSense: A Unified Deep Learning Framework for Time-Series Mobile Sensing Data Processing**. *Shuochao Yao et al.* WWW 2017. [[Paper](https://doi.org/10.1145/3038912.3052577)]
 - **AttnSense: Multi-level Attention Mechanism for Multimodal Human Activity Recognition**. *Haojie Ma et al.* IJCAI 2019. [[Paper](https://www.ijcai.org/Proceedings/2019/431)]
@@ -167,8 +161,6 @@ These papers compare sensor fusion, cross-modal transfer, distillation, and co-l
 
 ### Self-supervised learning and wearable foundation models
 
-The line moves from contrastive and self-training methods to motion representations pretrained across datasets and large wearable foundation models.
-
 - **Multi-task Self-Supervised Learning for Human Activity Detection**. *Aaqib Saeed et al.* IMWUT 2019. [[Paper](https://doi.org/10.1145/3328932)]
 - **Federated Self-Supervised Learning of Multisensor Representations for Embedded Intelligence**. *Aaqib Saeed et al.* IEEE Internet of Things Journal 2020. [[Paper](https://doi.org/10.1109/jiot.2020.3009358)]
 - **Contrastive Predictive Coding for Human Activity Recognition**. *Harish Haresamudram et al.* IMWUT 2021. [[Paper](https://doi.org/10.1145/3472726)]
@@ -195,8 +187,6 @@ The line moves from contrastive and self-training methods to motion representati
 
 ### Language-grounded and open-vocabulary activity understanding
 
-Language can provide semantic labels, a shared embedding space, or a text interface for activity sensing. This group includes open-vocabulary recognition and language-based reasoning from sensor signals.
-
 - **IMU2CLIP: Language-grounded Motion Sensor Translation with Multimodal Contrastive Learning**. *Seungwhan Moon et al.* Findings of EMNLP 2023. [[Paper](https://aclanthology.org/2023.findings-emnlp.883/)]
 - **ImageBind One Embedding Space to Bind Them All**. *Rohit Girdhar et al.* CVPR 2023. [[Paper](https://doi.org/10.1109/cvpr52729.2023.01457)]
 - **By My Eyes: Grounding Multimodal Large Language Models with Sensor Data via Visual Prompting**. *Hyungjun Yoon et al.* EMNLP 2024. [[Paper](https://aclanthology.org/2024.emnlp-main.133/)]
@@ -216,8 +206,6 @@ Language can provide semantic labels, a shared embedding space, or a text interf
 
 ### Continuous wearable recognition and temporal localization
 
-Window recognition becomes continuous when a system must identify event boundaries, progress, or activity intervals. The cited work spans dense, weak, timestamp, and point supervision.
-
 - **WEAR: An Outdoor Sports Dataset for Wearable and Egocentric Activity Recognition**. *Marius Bock et al.* IMWUT 2024. [[Paper](https://doi.org/10.1145/3699776)]
 - **Hierarchical Span-Based Conditional Random Fields for Labeling and Segmenting Events in Wearable Sensor Data Streams**. *Roy Adams et al.* ICML 2016. [[Paper](https://proceedings.mlr.press/v48/adams16.html)]
 - **Progress Estimation and Phase Detection for Sequential Processes**. *Xinyu Li et al.* IMWUT 2017. [[Paper](https://doi.org/10.1145/3130936)]
@@ -236,8 +224,6 @@ Window recognition becomes continuous when a system must identify event boundari
 - **WS-IMUBench: Can Weakly Supervised Methods from Audio, Image, and Video Be Adapted for IMU-based Temporal Action Localization?**. *Pei Li et al.* arXiv 2026. [[Paper](https://arxiv.org/abs/2602.01850)]
 
 ### Cross-person, cross-device, and sensor-position generalization
-
-Generalization studies vary people, sensor placement, devices, or datasets between training and evaluation. This grouping makes those shifts visible alongside each method’s representation and learning strategy.
 
 - **GOAT: A Generalized Cross-Dataset Activity Recognition Framework with Natural Language Supervision**. *Shenghuan Miao et al.* IMWUT 2024. [[Paper](https://doi.org/10.1145/3699736)]
 - **CrossHAR: Generalizing Cross-dataset Human Activity Recognition via Hierarchical Self-Supervised Pretraining**. *Zhiqing Hong et al.* IMWUT 2024. [[Paper](https://doi.org/10.1145/3659597)]
@@ -264,8 +250,6 @@ Generalization studies vary people, sensor placement, devices, or datasets betwe
 
 ### On-device sensing, privacy, and efficient systems
 
-Deployment work studies sensing cost, selective activation, privacy, model size, and on-device execution in addition to recognition performance.
-
 - **HabitSense: A Privacy-Aware, AI-Enhanced Multimodal Wearable Platform for mHealth Applications**. *Glenn J. Fernandes et al.* IMWUT 2024. [[Paper](https://doi.org/10.1145/3678591)]
 - **COMODO: Cross-Modal Video-to-IMU Distillation for Efficient Egocentric Human Activity Recognition**. *Baiyu Chen et al.* IMWUT 2026. [[Paper](https://doi.org/10.1145/3810218)]
 - **Leveraging Sound and Wrist Motion to Detect Activities of Daily Living with Commodity Smartwatches**. *Sarnab Bhattacharya et al.* IMWUT 2022. [[Paper](https://doi.org/10.1145/3534582)]
@@ -279,8 +263,6 @@ Deployment work studies sensing cost, selective activation, privacy, model size,
 - **Mobile Foundation Model as Firmware: The Way Towards a Unified Mobile AI Landscape**. *Jinliang Yuan et al.* MobiCom 2024. [[Paper](https://doi.org/10.1145/3636534.3649361)]
 
 ### Audio event detection and egocentric audio
-
-Audio can serve as an egocentric activity signal or as a sound-event stream with its own labels and boundaries. This group includes sound-event datasets, detection methods, evaluation metrics, and wearable audio systems.
 
 - **SoundingActions: Learning How Actions Sound from Narrated Egocentric Videos**. *Changan Chen et al.* CVPR 2024. [[Paper](https://doi.org/10.1109/cvpr52733.2024.02573)]
 - **TIM: A Time Interval Machine for Audio-Visual Action Recognition**. *Lucas Chalk et al.* CVPR 2024. [[Paper](https://openaccess.thecvf.com/content/CVPR2024/html/Chalk_TIM_A_Time_Interval_Machine_for_Audio-Visual_Action_Recognition_CVPR_2024_paper.html)]
@@ -303,8 +285,6 @@ Audio can serve as an egocentric activity signal or as a sound-event stream with
 - **DCASE 2024 Task 4: Sound Event Detection with Heterogeneous Data and Missing Labels**. *Samuele Cornell et al.* DCASE Workshop 2024. [[Paper](https://arxiv.org/abs/2406.08056)]
 
 ### Video temporal action localization and segmentation
-
-Video temporal localization and segmentation provide methods for interval proposals, online decisions, and framewise labels. They are retained as related temporal paradigms and shown separately from wearable-input studies.
 
 - **Temporal Action Detection with Structured Segment Networks**. *Yue Zhao et al.* ICCV 2017. [[Paper](https://doi.org/10.1109/iccv.2017.317)]
 - **BSN: Boundary Sensitive Network for Temporal Action Proposal Generation**. *Tianwei Lin et al.* ECCV 2018. [[Paper](https://doi.org/10.1007/978-3-030-01225-0_1)]
@@ -337,8 +317,6 @@ Video temporal localization and segmentation provide methods for interval propos
 
 ### Time-series segmentation and boundary modeling
 
-These papers model change points, duration, and boundaries in multivariate time series. Their outputs help compare temporal segmentation ideas that can transfer to continuous sensor streams.
-
 - **Toeplitz Inverse Covariance-Based Clustering of Multivariate Time Series Data**. *David Hallac et al.* KDD 2017. [[Paper](https://doi.org/10.1145/3097983.3098060)]
 - **Change Point Detection via Multivariate Singular Spectrum Analysis**. *Arwa Alanqary et al.* NeurIPS 2021. [[Paper](https://papers.nips.cc/paper/2021/hash/c348616cd8a86ee661c7c98800678fad-Abstract.html)]
 - **Deep Explicit Duration Switching Models for Time Series**. *Abdul Fatir Ansari et al.* arXiv 2021. [[Paper](https://doi.org/10.48550/arxiv.2110.13878)]
@@ -350,8 +328,6 @@ These papers model change points, duration, and boundaries in multivariate time 
 - **LaDy: Lagrangian-Dynamic Informed Network for Skeleton-based Action Segmentation via Spatial-Temporal Modulation**. *Haoyu Ji et al.* CVPR 2026. [[Paper](https://arxiv.org/abs/2603.24097)]
 
 ### Streaming speech recognition and sequence alignment
-
-Streaming speech recognition contributes alignment, duration, memory, and emission methods for sequence-to-sequence inference under latency constraints.
 
 - **Connectionist Temporal Classification: Labelling Unsegmented Sequence Data with Recurrent Neural Networks**. *Alex Graves et al.* ICML 2006. [[Paper](https://www.cs.toronto.edu/~graves/icml_2006.pdf)]
 - **Sequence Transduction with Recurrent Neural Networks**. *Alex Graves et al.* arXiv 2012. [[Paper](https://arxiv.org/abs/1211.3711)]
@@ -368,8 +344,6 @@ Streaming speech recognition contributes alignment, duration, memory, and emissi
 
 ### Simultaneous translation and online policies
 
-Simultaneous translation studies decide when to read, wait, and emit output. They provide online-policy and monotonic-alignment references for streaming activity systems.
-
 - **Learning to Translate in Real-time with Neural Machine Translation**. *Jiatao Gu et al.* EACL 2017. [[Paper](https://aclanthology.org/E17-1099/)]
 - **STACL: Simultaneous Translation with Implicit Anticipation and Controllable Latency using Prefix-to-Prefix Framework**. *Mingbo Ma et al.* ACL 2019. [[Paper](https://aclanthology.org/P19-1289/)]
 - **Monotonic Multihead Attention**. *Xutai Ma et al.* ICLR 2020. [[Paper](https://arxiv.org/abs/1909.12406)]
@@ -378,8 +352,6 @@ Simultaneous translation studies decide when to read, wait, and emit output. The
 - **Self-Modifying State Modeling for Simultaneous Machine Translation**. *Donglei Yu et al.* ACL 2024. [[Paper](https://aclanthology.org/2024.acl-long.528/)]
 
 ## Paper dimension matrix
-
-The matrix has one row per paper and records the sensing setup, input modalities, representation, learning strategy, supervision, and output task. **—** marks a field that the cited source does not specify or that has not been verified.
 
 | Paper: title, first author, venue and year | Research topic(s) | Body position / device | Input at inference | Training-only / auxiliary input | Representation | Supervision | Learning strategy | Output task |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
