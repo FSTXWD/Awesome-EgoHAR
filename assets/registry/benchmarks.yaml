@@ -70,5 +70,23 @@
     "year": 2025,
     "dataset": "OctoNet",
     "inputs": "Multimodal sensor streams"
+  },
+  {
+    "id": "epic-kitchens-100",
+    "name": "EPIC-KITCHENS-100",
+    "task": "Egocentric action recognition, detection, and anticipation",
+    "url": "https://epic-kitchens.github.io/2025",
+    "year": 2021,
+    "dataset": "EPIC-KITCHENS-100",
+    "inputs": "RGB video, audio"
+  },
+  {
+    "id": "mmact",
+    "name": "MMAct",
+    "task": "Cross-modal action recognition",
+    "url": "https://mmact19.github.io/2019/",
+    "year": 2019,
+    "dataset": "MMAct",
+    "inputs": "RGB, keypoints, IMU, Wi-Fi, pressure"
   }
 ]

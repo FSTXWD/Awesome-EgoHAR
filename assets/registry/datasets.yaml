@@ -270,7 +270,7 @@
     ],
     "url": "https://epic-kitchens.github.io/epic-sounds/",
     "publication_type": "Companion paper",
-    "publication": "ICASSP 2023",
+    "publication": "ICASSP 2023; TPAMI 2025",
     "group": "Egocentric and multimodal",
     "wearer_device": "Head-worn camera",
     "modalities_display": "Audio; egocentric video context",
@@ -514,5 +514,73 @@
     "scale": "67.72M synchronized frames",
     "scenarios": "Structured and free-form activities",
     "metadata_source_url": "https://papers.neurips.cc/paper_files/paper/2025/hash/14950adea25005f89545688fe97fe5ea-Abstract-Datasets_and_Benchmarks_Track.html"
+  },
+  {
+    "id": "epic-kitchens-100",
+    "name": "EPIC-KITCHENS-100",
+    "year": 2020,
+    "positions": [
+      "head"
+    ],
+    "devices": [
+      "head-mounted-camera"
+    ],
+    "modalities": [
+      "video",
+      "audio"
+    ],
+    "tasks": [
+      "action-recognition",
+      "action-detection",
+      "anticipation"
+    ],
+    "url": "https://epic-kitchens.github.io/2025",
+    "publication_type": "Dataset with companion papers",
+    "publication": "ECCV 2018; IJCV 2022",
+    "group": "Egocentric and multimodal",
+    "wearer_device": "Head-mounted camera",
+    "modalities_display": "RGB video, audio",
+    "subjects": null,
+    "activities": "97 verb and 300 noun classes",
+    "scale": "100 h; about 90K action segments",
+    "scenarios": "45 kitchens across 4 cities",
+    "metadata_source_url": "https://epic-kitchens.github.io/2025"
+  },
+  {
+    "id": "mmact",
+    "name": "MMAct",
+    "year": 2019,
+    "positions": [
+      "head",
+      "body"
+    ],
+    "devices": [
+      "egocentric-camera",
+      "body-worn-sensors"
+    ],
+    "modalities": [
+      "rgb",
+      "keypoints",
+      "accelerometer",
+      "gyroscope",
+      "orientation",
+      "wifi",
+      "pressure"
+    ],
+    "tasks": [
+      "action-recognition",
+      "cross-modal-recognition"
+    ],
+    "url": "https://mmact19.github.io/2019/",
+    "publication_type": "Dataset and companion paper",
+    "publication": "ICCV 2019",
+    "group": "Egocentric and multimodal",
+    "wearer_device": "Head camera; body-worn sensors",
+    "modalities_display": "RGB, keypoints, accelerometer, gyroscope, orientation, Wi-Fi, pressure",
+    "subjects": "20 (ICCV paper)",
+    "activities": "37 action classes",
+    "scale": "36,764 clips",
+    "scenarios": "4 scenarios; fixed and egocentric views",
+    "metadata_source_url": "https://openaccess.thecvf.com/content_ICCV_2019/html/Kong_MMAct_A_Large-Scale_Dataset_for_Cross_Modal_Human_Action_Understanding_ICCV_2019_paper.html"
   }
 ]
